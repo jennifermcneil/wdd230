@@ -14,10 +14,10 @@
 
 const d = new Date();
 const year = d.getFullYear();
-console.log(d)
+
 // using getElementById
 document.getElementById('currentYear').textContent = year;
-document.getElementById('lastUpdated').textContent = document.lastModified;
+document.querySelector('#lastUpdated').textContent = document.lastModified;
 
 
 // // // using querySelector
