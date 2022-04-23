@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: Libre Franklin, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: .5rem;
+}
+
+header,
+main,
+footer {
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 1rem;
+
+}
+
+header {
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    background-color: #eee;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    box-shadow: 5px 5px 5px #999;
+}
+
+header img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #999;
+}
+
+main {
+    padding: .5rem;
+    
+}
+
+ul {
+    padding: 2rem 3rem;
+    color:  rgb(38, 62, 65);
+}
+header,
+footer {
+    background-color: rgb(111, 206, 220);
+    color: white;
+    text-shadow: 3px 3px 3px #999;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 5px #999;
+}
+
+h2 {
+    padding: 10px;
+    text-shadow: 3px 3px 3px #999;
+    color:  rgb(38, 62, 65);
+}
+
+h1 {
+    font-family: Oswald, serif;
+    letter-spacing: 4px;
+    font-weight: 400;
+    text-shadow: 3px 3px 3px #999;
+    
+}
+
+p {
+    padding-left: 10px;
+}
+
+footer {
+    position: relative;
+    bottom: auto;   
+}
+@media screen and (max-width: 450px) {
+    header,
+    footer {
+      display: block;
+    }
+  }
