@@ -64,8 +64,7 @@ h1 {
     font-family: Oswald, serif;
     letter-spacing: 4px;
     font-weight: 400;
-    text-shadow: 3px 3px 3px #999;
-    
+    text-shadow: 3px 3px 3px #999;   
 }
 
 p {
@@ -74,7 +73,8 @@ p {
 
 footer {
     position: relative;
-    bottom: auto;   
+    bottom: auto;  
+    padding: 1rem; 
 }
 @media screen and (max-width: 450px) {
     header,
