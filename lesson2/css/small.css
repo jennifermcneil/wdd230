@@ -1,5 +1,5 @@
 body {
-    font-family: Cousine, monospace;
+    height:100
   }
   
   header,
@@ -14,6 +14,9 @@ body {
   h2 {
     background-color:rgb(111, 206, 220);
     color: white;
+    border-radius: 5px 5px 0 0;
+    margin: auto 0;
+    padding: 5px;
   }
   
   main {
@@ -37,11 +40,7 @@ body {
   div {
     padding: 0.75em;
     border: black solid 1px;
-    background-color: rgb(224, 224, 224);
+    background-color:white;
   }
   
-  h2 {
-    border-radius: 5px 5px 0 0;
-    margin: auto 0;
-    padding: 5px;
-  }
+  
