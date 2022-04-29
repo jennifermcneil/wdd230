@@ -7,7 +7,7 @@ body {
     display:block;
     font-family: Oswald, serif;
     text-align: center;
-    color: white;
+    
     background-color:rgb(111, 206, 220);
     padding: 1px;
     margin: 0;
@@ -35,7 +35,7 @@ body {
     grid-template-columns: 1fr;
     grid-gap: 0.5em;
     width: auto;
-    font-family: Libre franklin, sans-serif;
+    font-family: quicksand, sans-serif;
     font-size: 25px;  
   }
   
