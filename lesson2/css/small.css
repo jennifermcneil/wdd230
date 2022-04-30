@@ -1,70 +1,73 @@
-body {
-    height: auto;
-  }
-  
-  header,
-  footer {
-    display:block;
-    font-family: Oswald, serif;
-    text-align: center;    
-    background-color:rgb(111, 206, 220);
-    padding: 1px;
-    margin: 0;
-  }
+@media only screen and (max-width: 32.5em)
 
-  h1{
-    letter-spacing: 3px;
-    font-weight: 400;
-  }
-  h2{
-    font-weight:300;
-  }
-  h3 {
-    background-color:rgb(111, 206, 220);
-    color: white;
-    text-align: center;
-    border-radius: 5px 5px 0 0;
-    margin: 5px;
-    padding: 5px;
-    box-shadow: 3px 3px 3px #999;
-  }
-  
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 0.5em;
-    width: auto;
-    font-family: quicksand, sans-serif;
-    font-size: 25px;  
-  }
-  
-  section p{
-    font-family: Quicksand, sans-serif;
-    font-size: 1em;
-
-  }
-  section {
-    padding: 1em;
-  }
-  
-  img {
-    padding: 1em 0;
-    display: block;
-    width: 100%;
+  body {
+      height: auto;
+    }
     
-  }
-  
-  div {
-    padding: 0.75em;
-    background-color:white;
-  }
+    header,
+    footer {
+      display:block;
+      font-family: Oswald, serif;
+      text-align: center;    
+      background-color:rgb(111, 206, 220);
+      padding: 1px;
+      margin:0;
+    }
 
-  footer {
-    position: relative;
-    bottom: auto;  
-    padding: 1rem; 
-    font-size: 1.5em;
-    background-color:rgb(111, 206, 220);
-  }
-  
-  
+    h1{
+      letter-spacing: 3px;
+      color: rgb(43, 43, 43);
+    }
+    h2{
+      font-weight:300;
+    }
+    h3 {
+      background-color: RGB(84, 83, 83);
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 5px 5px 0 0;
+      margin: 5px;
+      padding: 5px;
+      box-shadow: 3px 3px 3px #999;
+    }
+    
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 0.5em;
+      width: auto;
+      font-family: quicksand, sans-serif;
+      font-size: 25px; 
+      border-radius: 30px; 
+    }
+    
+    section p{
+      font-family: Quicksand, sans-serif;
+      font-size: 1em;
+
+    }
+    section {
+      padding: 1em;
+    }
+    
+    img {
+      padding: 1em 0;
+      display: block;
+      width: 100%;
+    }
+    
+    div {
+      padding: 0.75em;
+      background-color:white;
+    }
+
+    footer {
+      position: relative;
+      bottom: auto;  
+      padding: 1rem; 
+      font-size: 1.5em;
+      background-color:rgb(111, 206, 220);
+    }
+    
+    
