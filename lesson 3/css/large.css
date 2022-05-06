@@ -1,0 +1,11 @@
+@media screen and (min-width: 48em) {
+    body {
+      max-width: 768px;
+    }
+    nav a{ 
+        font-size: 1.1rem;
+    }
+    /* main{
+        article::nth-child */
+    }
+  }
