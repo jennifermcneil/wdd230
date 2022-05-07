@@ -118,6 +118,7 @@ section ul {
 
 table {
     padding-bottom: .5rem;
+    display: inline-table;
 }
 .colors {
     width: 100%;
