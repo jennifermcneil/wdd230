@@ -29,7 +29,7 @@ footer {
       max-width: 700px;
       margin: 1rem auto;
   } 
-  
+
 header,
 footer {
     background-color: rgb(111, 206, 220);
@@ -141,8 +141,8 @@ table {
     height: 3em;
     color:black;
   }
-td.primary, td.secondary{
-    color: white;
+td.accent1, td.secondary{
+    color:  white;
 }
 /* td.secondary{
     color: white;
