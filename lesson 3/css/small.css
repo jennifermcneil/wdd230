@@ -47,6 +47,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
+    margin: 16px;
     /* padding-left: 0; */
   }
   
@@ -66,9 +67,9 @@ nav a:hover {
 nav ul {
 	list-style-type: none;
 	overflow: hidden;
-  padding-left: 0;
-  
+  padding-left: 0; 
 }
+
 nav ul li a {
 	display: block;
 	text-align: center;
@@ -76,7 +77,9 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 0.95rem; 
 }
-
+.oswald{
+  font-family: Oswald, serif;
+}
 .active {
 	color: rgb(2, 28, 41);
 } 
@@ -88,8 +91,7 @@ img {
   }
   
 h2 {
-    background-color: white;
-    
+    background-color: white; 
   }
   
 div {
