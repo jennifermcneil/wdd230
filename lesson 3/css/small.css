@@ -52,12 +52,12 @@ nav ul {
   }
   
 nav a {
-    text-decoration: none;
+    /* text-decoration: none;
     display: block;
-    text-align: center;
+    text-align: center; */
     color: #05445E;
-    padding: 0.75rem;
-    font-size: .95rem;
+    /* padding: 0.75rem;
+    font-size: .95rem; */
   }
   
 nav a:hover {
