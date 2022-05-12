@@ -37,6 +37,9 @@ footer {
     padding: 0.5rem;
     text-align: center;
   }
+  footer{
+    color: #05445E;
+  }
   
 header {
     text-align: center;
@@ -55,7 +58,7 @@ nav ul {
     padding: 0;
     overflow: hidden;
     margin: 16px;
-    /* padding-left: 0; */
+    list-style-type: none; 
   }
   
 nav a {
@@ -71,11 +74,6 @@ nav a:hover {
     color:rgb(2, 28, 41);
     background-color: white;
   }
-nav ul {
-	list-style-type: none;
-	overflow: hidden;
-  padding-left: 0; 
-}
 
 nav ul li a {
 	display: block;
@@ -128,7 +126,7 @@ table {
 :root {
     --primary-color: #6FCEDC ;
     --secondary-color: #05445e;
-    --accent1-color: #189AB4;
+    --accent1-color: #99999;
     --accent2-color: #D4F1F4;
   }
 
@@ -140,15 +138,19 @@ table {
 .colors td{
     width: 25%;
     height: 3em;
-    color:black;
   }
-td.accent1, td.secondary{
-    color:  white;
+td.accent1{
+  color: #05445E;
+} 
+td.secondary{
+  color:  white;
 }
-/* td.secondary{
-    color: white;
-} */
-
+td.primary{
+  color: rgb(0,0,0);
+}
+td.accent2{
+  color: black;
+}
 .primary {
     background-color: var(--primary-color);
     color:white
