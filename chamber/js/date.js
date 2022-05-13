@@ -12,5 +12,5 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 }).format(now);
 // long, medium, short options ... try them
 
-datefield.innerHTML = `<em>${fulldate}</em>`;
+// datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;

@@ -76,7 +76,7 @@ header img{
 }
 .social {
     grid-column: 3;
-    color: #05445E;
+    
 }
 
 .social a {
@@ -85,7 +85,6 @@ header img{
 .social svg{
     width: 25px;
     height: auto;
-    padding: 1rem;
 }
 .date aside{
     margin: 0.5rem;
