@@ -1,97 +1,94 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: Oswald, serif; 
-    font-size: 16px;
-    padding: 0.5rem;
-    margin: 0 auto;
-    box-sizing: border-box;
-    background-color: #D4F1F4;
+body {
+  font-family: Oswald, serif;
+  font-size: 16px;
+  padding: 0.5rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #d4f1f4;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Quicksand, sans-serif;
-    color: #189AB4;
-    margin: 0;
-    padding: 0.8rem;
+  color: #189ab4;
+  margin: 0;
+  padding: 0.8rem;
 }
 
-h1{
-    color: #05445E;
-    font-family: Oswald, serif;
+h1 {
+  color: #05445e;
+  font-family: Oswald, serif;
 }
 header,
 footer {
-    background-color: white;
-    flex-flow: column;
-    padding: 0.5rem;
-    text-align: center;
-    color: #05445E;
-    font-family: Oswald, serif;
-  }
-
-header{
-  display: grid;
-  grid-template-columns: auto auto auto auto; grid-template-rows: auto auto;
+  background-color: white;
+  padding: 0.5rem;
+  text-align: center;
+  color: #05445e;
+  font-family: Oswald, serif;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
 }
 .logo img {
-    width: 80px;
-    height: auto;
-    padding: 1rem;
+  width: 80px;
+  height: auto;
+  padding: 1rem;
 }
 
-header img{
-    width: 1px;
-    height: auto;
+header img {
+  width: 1px;
+  height: auto;
 }
+
 .heading {
-    display: grid;
-    grid-template-columns: 90px auto;
-    align-items: center;
-}
-.headings{
-    display: flex;
-    flex-direction: column;
-    margin-left: .5rem;
+  /* display: grid; */
+  /* grid-template-columns: 90px auto; */
+  align-items: center;
 }
 
-.headings h1{
-    font-size: 1.6 rem;
-    margin: 0 0 0 17px;
-    padding: 1rem;
+.heading h1 {
+  font-size: 1.6 rem;
+  margin: 0 0 0 17px;
+  padding: 1rem;
 }
-.m {
-    font-style: italic;
-    color: #189AB4;
-    font-weight: 700;
+
+.quote {
+  font-style: italic;
+  color: #189ab4;
+  font-weight: 700;
 }
 .social {
-    grid-column: 3;
-    
+  grid-column: 3;
 }
 
 .social a {
-    display: inline-block;
+  display: inline-block;
 }
-.social svg{
-    width: 25px;
-    height: auto;
+.social svg {
+  width: 25px;
+  height: auto;
 }
-.date aside{
-    margin: 0.5rem;
-    border: 1px solid #bbb;
-    padding: 0.75rem;
-    background-color: #189AB4;
+
+aside {
+  margin: 0.5rem;
+  border: 1px solid #bbb;
+  padding: 0.75rem;
+  background-color: #189ab4;
+  grid-column: 1/4;
 }
 
 .home {
@@ -100,41 +97,48 @@ header img{
   grid-gap: 0.75rem;
   padding: 0.5rem;
 }
-.placeholderBoxHero, .placeholderBoxEvent, .placeholderBoxEvent, .placeholderBoxWeather, .placeholderBoxJoin, .placeholderBoxSpotlight1, .placeholderBoxSpotlight2, .placeholderBoxSpotlight3{
+.placeholderBoxHero,
+.placeholderBoxEvent,
+.placeholderBoxEvent,
+.placeholderBoxWeather,
+.placeholderBoxJoin,
+.placeholderBoxSpotlight1,
+.placeholderBoxSpotlight2,
+.placeholderBoxSpotlight3 {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
-  
+
 .assignmentFooter {
-    border-top: 1px solid grey;
-    font-size: 0.75rem;
-  }
-  
-  .hero img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .hero h3 {
-    color: white;
-    padding: 0;
-  }
-  
-  .hero {
-    position: relative;
-  }
-  
-  .join a:hover {
-    background-color: white;
-    color: rgba(45, 49, 66, 0.8);
-    border: 2px solid rgba(45, 49, 66, 1);
-    padding: 8px;
-    border-radius: 15px;
-  } 
-  
+  border-top: 1px solid grey;
+  font-size: 0.75rem;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h3 {
+  color: white;
+  padding: 0;
+}
+
+.hero {
+  position: relative;
+}
+
+.join a:hover {
+  background-color: white;
+  color: rgba(45, 49, 66, 0.8);
+  border: 2px solid rgba(45, 49, 66, 1);
+  padding: 8px;
+  border-radius: 15px;
+}
+
 .directoryBox,
 .placeholderBox {
   border: 1px solid rgba(20, 0, 140, 1);
@@ -143,68 +147,70 @@ header img{
   text-align: center;
 }
 .navigation {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navigation li {
-    display: none;
-  }
-  
-  .navigation a {
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    color: rgb(45 49 66);
-    padding: 0.8em;
-  }
-  
-  .navigation a:hover {
-    color: white;
-    background-color: rgba(115, 128, 185, 1);
-  }
-  
-  .today {
-    text-align: center;
-    padding: 0.6em;
-    background-color: rgba(176, 215, 255, 0.5);
-    border: 1px solid rgba(191, 190, 197, 0.8);
-    max-width: 69em;
-    margin: 0 auto;
-  }
-  
-  /* Hamburger button */
-  .hambugerBtn {
-    padding: 0.8em;
-    border: none;
-    background-color: transparent;
-    font-size: 1.5em;
-    cursor: pointer;
-  }
-  
-  .hambugerBtn a {
-    text-decoration: none;
-    color: rgba(45, 49, 66, 1);
-  }
-  
-  .hambugerBtn span:nth-child(1) {
-    display: block;
-  }
-  .hambugerBtn span:nth-child(2) {
-    display: none;
-  }
-  
-  .hambugerBtn.responsive span:nth-child(1) {
-    display: none;
-  }
-  .hambugerBtn.responsive span:nth-child(2) {
-    display: block;
-  }
-  
-  .responsive li {
-    display: block;
-  }
-  /* End Hamburger button */
-  
- 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  display: none;
+}
+
+.showList {
+  display: block;
+}
+
+.navigation a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(45 49 66);
+  padding: 0.8em;
+}
+
+.navigation a:hover {
+  color: white;
+  background-color: rgba(115, 128, 185, 1);
+}
+
+.today {
+  text-align: center;
+  padding: 0.6em;
+  background-color: rgba(176, 215, 255, 0.5);
+  border: 1px solid rgba(191, 190, 197, 0.8);
+  max-width: 69em;
+  margin: 0 auto;
+}
+
+/* Hamburger button */
+.hambugerBtn {
+  padding: 0.8em;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.hambugerBtn a {
+  text-decoration: none;
+  color: rgba(45, 49, 66, 1);
+}
+
+.hambugerBtn span:nth-child(1) {
+  display: block;
+}
+.hambugerBtn span:nth-child(2) {
+  display: none;
+}
+
+.hambugerBtn.responsive span:nth-child(1) {
+  display: none;
+}
+.hambugerBtn.responsive span:nth-child(2) {
+  display: block;
+}
+
+.responsive li {
+  display: block;
+}
+/* End Hamburger button */
