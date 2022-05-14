@@ -189,7 +189,7 @@ aside {
   }
   
   .navigation a.ham::before {
-    content: "🍔 ";
+    content: "&#9776";
   }
   
   .navigation a:hover {
@@ -205,7 +205,7 @@ aside {
   }
   
   .responsive a.ham::before {
-    content: "❌ ";
+    content: "❎";
   }
   
   /* Media Query for medium+ views */
