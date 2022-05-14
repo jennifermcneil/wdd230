@@ -102,19 +102,18 @@
         grid-row: 2/3;
         grid-column: 1/2;
       }
-    }
 
-    .headings h1{
+      .headings h1{
         font-size: 3rem;
         margin: 0;
-    }
+      }
 
-    .m {
+      .quote {
         letter-spacing: 1.5pt;
         font-size: 0.9rem;
         margin-left: 17px;
-    }
-    nav button{
+      }
+      nav button{
         display: none;
-    }
+      }
 }
