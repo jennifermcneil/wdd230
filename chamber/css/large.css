@@ -16,17 +16,17 @@
     .navigation {
         display: flex;
       }
-    
-      .navigation li {
+       
+   .navigation li {
         display: inline-block;
         flex: 1 1 auto;
         align-items: center;
       }
     
-      .logoBox h1 {
+    .logoBox h1 {
         font-size: 1.2em;
       }
-      .heading {
+    .heading {
         grid-template-columns: auto;
         align-items: center;
       }

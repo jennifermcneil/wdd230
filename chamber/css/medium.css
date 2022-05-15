@@ -8,11 +8,6 @@
       display: inline;
     }
   
-    .cardImg:hover {
-      border-radius: 25px;
-      box-shadow: 0 0 25px 25px rgba(115, 128, 185, 1);
-    }
-  
     .assignmentFooter {
       padding-top: 0.75em;
     }
