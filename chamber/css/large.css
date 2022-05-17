@@ -7,8 +7,7 @@
     .home,
     .heading,
     .footer,
-    .join-page,
-    .thank-you,
+
     main {
       max-width: 70em;
       margin: 10px auto;
@@ -31,7 +30,7 @@
         align-items: center;
       }
     
-      .logoBox {
+    .logoBox {
         padding-right: 2em;
         align-items: center;
         grid-column: 1/2;

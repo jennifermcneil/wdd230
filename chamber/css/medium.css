@@ -1,12 +1,28 @@
-@media screen and (min-width: 32em) {
+@media screen and (min-width: 32.5em) {
     .home{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto auto auto auto auto;
     }
-    .small {
-      display: inline;
-    }
+  
+    .navigation {
+        display: flex;
+      }
+
+    .navigation li {
+        display: block; /* change state in small view */
+        flex: 1 1 auto;
+      }
+
+    .navigation a {
+        text-align: center;
+      }
+
+    .navigation li:first-child {
+        display: none;
+      }
+
+    .spo
   
     .assignmentFooter {
       padding-top: 0.75em;
