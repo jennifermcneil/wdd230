@@ -5,13 +5,13 @@
         grid-template-rows: auto auto auto auto auto;
     }
   
-    .navigation {
+    /* .navigation {
         display: flex;
-      }
+      } */
 
-    .navigation li {
+    /* .navigation li {
         display: block; /* change state in small view */
-        flex: 1 1 auto;
+        /* flex: 1 1 auto;
       }
 
     .navigation a {
@@ -20,9 +20,9 @@
 
     .navigation li:first-child {
         display: none;
-      }
+      } */ 
 
-    .spo
+    
   
     .assignmentFooter {
       padding-top: 0.75em;
