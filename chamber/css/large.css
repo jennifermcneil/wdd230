@@ -1,121 +1,103 @@
 @media screen and (min-width: 45em) {
-    .home {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
+  .home {
+    grid-template-columns: 1fr 1fr 1fr 275px;
+  }
+
+  .home,
+  .heading,
+  .footer,
+  .home {
+    max-width: 70em;
+    margin: 10px auto;
+  }
   
-    .discover,
-    .home,
-    .heading,
-    .footer,
+  .navigation {
+    display: flex;
+  }
 
-    main {
-      max-width: 70em;
-      margin: 10px auto;
-    }
-    .navigation {
-        display: flex;
-      }
-       
-   .navigation li {
-        display: inline-block;
-        flex: 1 1 auto;
-        align-items: center;
-      }
-    
-    .logoBox h1 {
-        font-size: 1.2em;
-      }
-    .heading {
-        grid-template-columns: auto;
-        align-items: center;
-      }
-    
-    .logoBox {
-        padding-right: 2em;
-        align-items: center;
-        grid-column: 1/2;
-        grid-row: 1;
-      }
-    
-      .menu {
-        padding-right: 0.8em;
-        grid-column: 2/3;
-        grid-row: 1;
-      }
-    
-      .social {
-        padding-right: 0.8em;
-        grid-column: 3/4;
-        grid-row: 1;
-      }
-    
-      .assignmentFooter p:nth-child(4) {
-        display: inline;
-      }
-    
-      .footer {
-        justify-content: space-around;
-      }
-    
-      .hambugerBtn {
-        display: none;
-      }
-    
-      .spotlightBox:nth-child(3) {
-        display: initial;
-      }
-    
-      .hero {
-        grid-column: 2/4;
-        grid-row: 1/3;
-      }
-    
-      .news {
-        grid-row: 3/4;
-        grid-column: 2/4;
-      }
-    
-      .spotlightBoxMain {
-        grid-row: 1/4;
-        grid-column: 4/5;
-        flex-direction: column;
-      }
-    
-      .spotlight img {
-        width: 30rem;
-      }
-    
-      .join {
-        grid-row: 3/4;
-        grid-column: 1/2;
-      }
-      .spot3{
-          display: block;
-      }
-      .event {
-        grid-row: 1/2;
-        grid-column: 1/2;
-      }
+  .navigation li {
+    display: inline-block;
+    flex: 1 1 auto;
+    align-items: center;
+  }
 
-      .weather {
-        grid-row: 2/3;
-        grid-column: 1/2;
-      }
-      .spot3{
-        display: block;
-      }
-      
-      .headings h1{
-        font-size: 3rem;
-        margin: 0;
-      }
+  .logoBox h1 {
+    font-size: 1.2em;
+  }
+  .heading {
+    grid-template-columns: auto;
+    align-items: center;
+  }
 
-      .quote {
-        letter-spacing: 1.5pt;
-        font-size: 0.9rem;
-        margin-left: 17px;
-      }
-      nav button{
-        display: none;
-      }
+  .logoBox {
+    padding-right: 2em;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1;
+  }
+
+  .ham {
+    padding-right: 0.8em;
+    grid-column: 2/3;
+    grid-row: 1;
+  }
+
+  .social {
+    padding-right: 0.8em;
+    grid-column: 3/4;
+    grid-row: 1;
+  }
+
+  .assignmentFooter p:nth-child(4) {
+    display: inline;
+  }
+
+  .footer {
+    justify-content: space-around;
+  }
+
+  .hambugerBtn {
+    display: none;
+  }
+
+  .spotlightBox:nth-child(3) {
+    display: initial;
+  }
+
+  .hero {
+    grid-column: 2/4;
+    grid-row: 1/3;
+  }
+
+  .news {
+    grid-row: 3/4;
+    grid-column: 2/4;
+  }
+
+  .spotlight {
+    grid-row: 1/4;
+    grid-column: 4/5;
+    flex-direction: column;
+  }
+
+  .spotlight img {
+    width: 15rem;
+  }
+
+  
+
+  .join {
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+
+  .event {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+
+  .weather {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
 }
