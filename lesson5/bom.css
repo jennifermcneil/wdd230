@@ -38,6 +38,11 @@ input {
 	width: 200px;
 }
 
+.error {
+	display: none;
+	background-color: antiquewhite;
+	color: black;
+}
 label {
 	font-size: 0.9rem;
 }
