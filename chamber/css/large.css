@@ -37,9 +37,7 @@
   }
 
   .ham {
-    padding-right: 0.8em;
-    grid-column: 2/3;
-    grid-row: 1;
+    display: none;
   }
 
   .social {
@@ -81,11 +79,12 @@
   }
 
   .spotlight img {
+    
     width: 15rem;
   }
-
-  
-
+  .spot3 {
+    display: block;
+  }
   .join {
     grid-row: 3/4;
     grid-column: 1/2;

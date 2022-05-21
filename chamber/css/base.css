@@ -310,7 +310,7 @@ nav {
   padding: 0;
 }
 
-.navigation li:first-child {
+.navigation:first-child {
   display: block;
 }
 
@@ -347,10 +347,13 @@ nav {
     width: 100%;
   }
   
-  .responsive a.ham::before {
+  .responsive .hamburgerBtn::before {
     content: "❎";
   }
-
+  .responsive #menuBtn {
+    display: none;
+  }
+  
 footer {
   text-align: center;
 }

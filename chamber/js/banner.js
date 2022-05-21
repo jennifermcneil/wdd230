@@ -1,9 +1,11 @@
-let d = new Date();
+let date = new Date();
 
 const banner = document.getElementById("banner");
-if (d.getDay() === 1 || d === 2){
+
+if (date.getDay() === 1 || date.getDay() === 2){
     banner.style.display = "block";
-} else {
+} 
+else {
     banner.style.display = "none"
 }
 const close = document.querySelector("#close")
