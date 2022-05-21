@@ -283,9 +283,10 @@ aside {
 }
 
 .spot1, .spot2 , .spot3{
-  border: 1px solid #D4F1F4;
+  border: 2px solid #189AB4;
   flex: 1 1 auto;
   padding: 0.75rem;
+  box-shadow: 0 0 10px #189AB4;
 }
 
 .spotlightBox img {
@@ -305,6 +306,7 @@ nav {
 }
 .navigation {
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 
@@ -321,7 +323,7 @@ nav {
     padding: 0.75rem;
     text-align: left;
     text-decoration: none;
-    
+    color:white;
     font-weight: 700;
     transition: 0.5s;
     font-size: clamp(1rem, 2vmin, 1.5rem);
@@ -349,87 +351,6 @@ nav {
     content: "❎";
   }
 
-
-
-/* 
-.navigation {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navigation li {
-  display: none;
-}
-
-.navigation a {
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  color: #05445E;
-  padding: 0.8em;
-}
-
-.navigation a {
-  display: block;
-  padding: 0.75rem;
-  text-align: left;
-  text-decoration: none;
-  color: white;
-  font-weight: 700;
-  transition: 0.5s;
-  font-size: clamp(1rem, 2vmin, 1.5rem);
-}
-
-.navigation a.ham::before {
-  content: "☰";
-}
-
-
-.navigation a:hover {
-  color: white;
-  background-color: #A2E0E8;
-}
-
-
-/* Hamburger button */
-/* .hamButton {
-  padding: 0.8em;
-  border: none;
-  background-color: transparent;
-  font-size: 1.5em;
-  cursor: pointer;
-}
-
-.hamButton a {
-  text-decoration: none;
-  color: rgba(45, 49, 66, 1);
-}
-
-.hamButton span:nth-child(1) {
-  display: block;
-}
-.hamButton span:nth-child(2) {
-  display: none;
-}
-
-.hamButton.responsive span:nth-child(1) {
-  display: none;
-}
-.hamButton.responsive span:nth-child(2) {
-  display: block;
-}
-
-.responsive li {
-  display: block;
-  width: 100%;
-}
-
-.responsive a.ham::before {
-  content: "❎";
-} */ 
-
-/* End Hamburger button */
 footer {
   text-align: center;
 }
