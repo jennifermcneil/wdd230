@@ -87,8 +87,7 @@
   }
 
   .spotlight img {
-    
-    width: 15rem;
+    width: 100%;
   }
   .spot3 {
     display: block;
