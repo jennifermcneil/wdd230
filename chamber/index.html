@@ -26,13 +26,12 @@
   </head>
   <body>
     <header>
-      <div id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.<button id="close">❎</button></div>
       <div class="heading">
         <nav class="menu">
           <a class="ham" href="#">
-            <button class="hamburgerBtn" type="button">
+            <div class="hamburgerBtn">
               <span id="menuBtn">&#9776;</span>
-            </button>
+            </div>
           </a>
           <ul class="navigation">
             <li><a href="index.html" class="active">Home</a></li>
@@ -44,10 +43,9 @@
         </nav>
         <div class="logoBox">
           <a href="index.html">
-            <img
-              src="images/MaderaCofCdark.png"
-              alt="Madera Chamber of Commerce logo"/></a>
-          <h1>Madera <br><span class="smallH1"> Chamber of Commerce</span></h1>
+            <img src="images/maderaCofCdark.png" alt="Madera Chamber of Commerce logo"
+          /></a>
+          <h1>Madera <br /><span class="smallH1"> Chamber of Commerce</span></h1>
         </div>
         <div class="social">
           <a href="https://facebook.com">
@@ -55,7 +53,7 @@
               enable-background="new 0 0 32 32"
               height="32px"
               id="Layer_1"
-              version="1.0"
+              version="1.1"
               viewBox="0 0 32 32"
               width="32px"
               xml:space="preserve"
@@ -89,7 +87,6 @@
               width="100%"
               xml:space="preserve"
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:serif="http://www.serif.com/"
               xmlns:xlink="http://www.w3.org/1999/xlink"
             >
               <g>
@@ -120,7 +117,6 @@
               width="100%"
               xml:space="preserve"
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:serif="http://www.serif.com/"
               xmlns:xlink="http://www.w3.org/1999/xlink"
             >
               <g id="g5891">
@@ -154,6 +150,13 @@
           </a>
         </div>
         <aside></aside>
+        <div id="banner">
+          Come join us for the chamber meet and greet Wednesday at 7:00 p.m.<button
+            id="close"
+          >
+            ❎
+          </button>
+        </div>
       </div>
     </header>
     <main class="home" id="main-content">
@@ -180,85 +183,89 @@
           <h2>Weather</h2>
           <div class="wind">
             <picture>
-              <img class="windy" src="images/partly cloudy logo.png" alt="Madera Weather Report"  width="120" height="100">
+              <img
+                class="windy"
+                src="images/partlycloudylogo.png"
+                alt="Madera Weather Report"
+                width="120"
+                height="100"
+              />
             </picture>
-            <p>Wind Speed: 10<span id="windSpeed"></span> mph</p>
-            <p>Wind Chill: N/A <span id="windChill"></span></p>
+            <p>Temperature: <span id="temperature">32</span></p>
+            <p>Wind Speed: <span id="windSpeed">10</span> mph</p>
+            <p>Wind Chill: <span id="windChill"></span></p>
           </div>
         </section>
       </div>
       <div class="placeholderBox news">
         <section>
           <h2>News Release</h2>
+          <p>2022 Madera Prayer Breakfast</p>
           <p>
-            2022 Madera Prayer Breakfast
-          </p>
-          <p>
-            The Madera Chamber of Commerce and Madera Ministerial Association respectfully thank our sponsors.
+            The Madera Chamber of Commerce and Madera Ministerial Association respectfully
+            thank our sponsors.
           </p>
         </section>
       </div>
       <div class="placeholderBox join">
         <h2><a href="#">Join Us!</a></h2>
         <p>
-          Join the chamber of commerce and discover how it will benefit your
-          organization.
+          Join the chamber of commerce and discover how it will benefit your organization.
         </p>
       </div>
       <div class="placeholderBox spotlight">
         <div class="spot1 placeholderBox">
           <section>
             <h3>Golf Classic</h3>
-            <img width="50" src="./images/golflogo.png" alt="Golf logo"
+            <img width="50" src="images/golflogo.png" alt="Golf logo" />
             <p>"Put your game to the test"</p>
           </section>
-        <div class="info">
-          <p>golfthegreen@madera.com</p>
-          <p>(559)123-4567</p>
-        </div>
+          <div class="info">
+            <p>golfthegreen@madera.com</p>
+            <p>(559)123-4567</p>
+          </div>
         </div>
 
         <div class="spot2 placeholderBox">
           <section>
             <h3>Terrific Transport</h3>
-            <img width="50"src="images/trucklogo.png" alt="Truck Logo"
+            <img width="50" src="images/trucklogo.png" alt="Truck Logo" />
             <p>"We get it there for you"</p>
           </section>
-        <div class="info">
-          <p>terrifictransport@moving.com</p>
-          <p>(559)123-4567</p>
+          <div class="info">
+            <p>terrifictransport@moving.com</p>
+            <p>(559)123-4567</p>
+          </div>
         </div>
-        </div>
-      
+
         <div class="spot3 placeholderBox">
           <section>
             <h3>Lion's Park</h3>
-            <img width="50"src="images/parklogo.png" alt="Park Logo">
+            <img width="50" src="images/parklogo.png" alt="Park Logo" />
             <p>"Come have a roaring good time."</p>
           </section>
-        <div class="info"
-          <p>lionspark@roaring.com</p>
-          <p>(559)123-4567</p>
+          <div class="info">
+            <p>lionspark@roaring.com</p>
+            <p>(559)123-4567</p>
+          </div>
         </div>
       </div>
-      </div>
-
     </main>
     <footer>
       <div class="footer">
         <div class="address">
           <div class="logo">
             <img
-              src="images/MaderaCofCdark.png"
+              src="images/maderaCofCdark.webp"
               alt="Madera Chamber of Commerce logo"
-              width="90"
+              width="150"
             />
           </div>
-          <address class="addressBox">
+          <div class="addressBox">
             <h1>Madera Chamber of Commerce</h1>
             <p>120 North E Street</p>
             <p>Madera, CA 36368</p>
-          </address>
+          </div>
         </div>
         <div class="map">
           <p>info@maderachamber.org</p>
@@ -271,13 +278,15 @@
       </div>
       <p>
         Weather information provided by
-        <a class="weather-link"
+        <a
+          class="weather-link"
           href="https://openweathermap.org/city/5369568"
           target="_blank"
-          >OpenWeatherMap.org</a>
+          >OpenWeatherMap.org</a
+        >
       </p>
-      <div class="assignmentFooter">
-      
+      <div class="assignmentFooter"></div>
+
       ©️ <span id="currentYear"></span> Madera Chamber of Commerce |
       <strong>Jennifer McNeil</strong> |WDD 230 Project | Last Updated:
       <span id="lastUpdated"></span>
@@ -286,5 +295,6 @@
   <script src="js/date.js"></script>
   <script src="js/currentdate.js"></script>
   <script src="js/hamburgerButton.js"></script>
-  <script src="js/banner.js"></script>  
+  <script src="js/banner.js"></script>
+  <script src="js/windchill.js"></script>
 </html>

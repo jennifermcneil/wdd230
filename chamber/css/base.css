@@ -40,12 +40,16 @@ footer {
 }
 
 .banner {
-  display: none;
+  display:block;
   margin: 0 auto;
   border: 1px solid #bbb;
   background-color: #eee;
   padding: 1rem;
   text-align: center;
+  grid-column: 1/4;
+  grid-row: 4;
+  text-align: center;
+
 }
 .heading {
   display: grid;
@@ -61,7 +65,7 @@ footer {
 }
 
 .heading img{
-  width: 100px;
+  width: 150px;
 }
 
 .logoBox {
@@ -120,11 +124,11 @@ nav {
     transition: 0.5s;
     font-size: clamp(1rem, 2vmin, 1.5rem);
   }
-  
-.navigation a.ham::before {
-    content: "☰";
-  }
-  
+
+#menuBtn{
+  color: white;
+  padding: 5px;
+}
 .navigation a:hover {
     color: white;
     background-color: #189AB4;
