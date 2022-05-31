@@ -38,8 +38,8 @@
     grid-row: 1;
     grid-column: 1/4;
     position: relative;
-    /* background-image: url("../images/MaderaSky-480.jpg");
-    background-size: cover; */
+    background-image: url("../images/MaderaSky-480.jpg");
+    background-size: cover;
     height: 480px;
   }
   .news {
