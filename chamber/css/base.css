@@ -176,6 +176,10 @@ nav {
   border: 1px solid #05445E;
 }
 
+#lastVisit {
+  text-align: center;
+}
+
 .home {
   padding: 0.5rem;
   display: grid;
