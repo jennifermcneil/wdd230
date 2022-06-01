@@ -143,7 +143,7 @@ nav {
 .responsive .hamburgerBtn::before {
     content: "❎";
   }
-  
+
 .responsive #menuBtn {
     display: none;
   }
