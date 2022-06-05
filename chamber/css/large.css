@@ -51,7 +51,7 @@
     grid-row: 1;
   }
 
-.park img,.speedway img,.museum img,.fossil img,.barn img,.drive-in img {
+.park img,.speedway img,.museum img,.fossil img,.barn img,.drive-in img,.tower img, .welcome img. .farm img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   transition: all 1s ease;
@@ -59,7 +59,7 @@
   padding: 0.75rem;
   }
 
-.park img:hover,.speedway img:hover,.museum img:hover,.fossil img:hover,.barn img:hover,.drive-in img:hover:hover{
+.park img:hover,.speedway img:hover,.museum img:hover,.fossil img:hover,.barn img:hover,.drive-in img:hover:hover,.welcome img:hover,.tower img:hover,.farm img:hover {
   filter: grayscale(0%);
   filter: gray;
   -webkit-filter: grayscale(0%);

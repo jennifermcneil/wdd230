@@ -276,11 +276,14 @@ nav {
   text-align: center;
 }
 
-.population img, .industries img {
+.population img, .farm img,.occupations img,.industries img, .tower img {
   padding: 5px;
   width: 100%;
   background-color: white;
-  border: 25px solid white;
+  border: 10px solid white;
+}
+.farm img {
+  border: none;
 }
 
 .info,
