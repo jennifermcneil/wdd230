@@ -111,10 +111,6 @@ nav {
   display: block;
 }
 
-.navigation li {
-  display: none;
-}
-
 .navigation a {
     display: block;
     padding: 0.75rem;
@@ -144,7 +140,7 @@ nav {
     content: "❎";
   }
 
-.responsive #menuBtn {
+.responsive #menuBtn, .navigation li {
     display: none;
   }
 
@@ -235,7 +231,7 @@ nav {
   border-radius: 15px;
 }
 
-.event a {
+.event a, .weather-link {
   text-decoration: none;
 }
 
@@ -274,6 +270,7 @@ nav {
   text-align: center;
 }
 
+
 .windy {
   padding: 0.75rem;
 }
@@ -295,9 +292,6 @@ nav {
   margin: 0.5rem;
 }
 
-.weather-link {
-  text-decoration: none;
-}
 
 .icon {
   display: inline;
@@ -317,19 +311,12 @@ nav {
   flex-direction: column;
   height: auto;
 }
-.join {
+
+.join,.spot3, .contact {
   display: none;
 }
 
-.spot3 {
-  display: none;
-}
-
-.contact {
-  display: none;
-}
-
-.spot1, .spot2 , .spot3{
+.spot1, .spot2 , .spot3, .park, .museum, .speedway, .fossil, .barn, .drive-in {
   border: 2px solid #189AB4;
   flex: 1 1 auto;
   padding: 0.75rem;

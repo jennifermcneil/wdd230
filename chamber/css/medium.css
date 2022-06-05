@@ -1,5 +1,5 @@
 @media screen and (min-width: 450px) {
-  .small {
+  .small, .assignmentFooter p {
     display: inline;
   }
   .social {
@@ -8,16 +8,25 @@
     grid-column: 3/4;
     grid-row: 1;
   }
+  .park img,.speedway img,.museum img,.fossil img,.barn img,.drive-in img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: all 1s ease;}
+  
+  .park img:hover,.speedway img:hover,.museum img:hover,.fossil img:hover,.barn img:hover,.drive-in img:hover:hover{
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+    box-shadow: 0 0 1px 1px white;
+      }
 
   .assignmentFooter {
     padding-top: 0.75em;
   }
 
-  .assignmentFooter p {
-    display: inline;
-  }
-
-  .assignmentFooter p:nth-child(4) {
+  .assignmentFooter p:nth-child(4), .placeholderBox:nth-child(5) {
     display: block;
   }
 
@@ -30,10 +39,6 @@
     display: flex;
   }
 
-  .placeholderBox:nth-child(5) {
-    display: block;
-  }
-
   .hero {
     grid-row: 1;
     grid-column: 1/4;
@@ -42,6 +47,7 @@
     background-size: cover;
     height: 480px;
   }
+  
   .news {
     grid-row: 2;
     grid-column: 1/4;
