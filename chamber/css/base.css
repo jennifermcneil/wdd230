@@ -49,7 +49,7 @@ footer {
   grid-row: 4;
   text-align: center;
   box-sizing: border-box;
-  box-shadow: 5px 5px 5px #999;
+  box-shadow: 5px 5px 5px #bbb;
 
 }
 .heading {
@@ -126,6 +126,7 @@ nav {
   color: white;
   padding: 5px;
 }
+
 .navigation a:hover {
     color: white;
     background-color: #189AB4;
@@ -174,6 +175,8 @@ nav {
 
 #lastVisit {
   text-align: center;
+  font-weight: bold;
+  font-size: large;
 }
 
 .home, .statisticsMadera {
@@ -252,7 +255,7 @@ nav {
 .join a:hover {
   background-color: white;
   color: #05445E;
-  border: 2px solid rgba(45, 49, 66, 1);
+  border: 2px solid #05445E;
   padding: 8px;
   border-radius: 15px;
 }
@@ -270,9 +273,10 @@ nav {
   text-align: center;
 }
 
-
-.windy {
-  padding: 0.75rem;
+.population img, .industries img {
+  padding: 5px;
+  width: 100%;
+  background-color: white;
 }
 
 .info,
@@ -342,7 +346,6 @@ nav {
   text-decoration: none;
   color: #05445E;
   display: block;
-  
   padding: 0.5em;
 }
 
