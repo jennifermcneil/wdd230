@@ -185,6 +185,9 @@ nav {
   grid-gap: 0.75em;
 }
 
+.statisticsMadera {
+  grid-gap: 2em;
+}
 .hero img {
   width: 100%;
   height: auto;
@@ -277,6 +280,7 @@ nav {
   padding: 5px;
   width: 100%;
   background-color: white;
+  border: 25px solid white;
 }
 
 .info,
