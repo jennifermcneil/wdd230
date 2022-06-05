@@ -8,10 +8,10 @@
   .home,.statisticsMadera,
   .heading,
   .footer,
-  .home {
+  .home, .statisticsMadera {
     margin: 10px auto;
   }
-  .home{
+  .home,.statisticsMadera{
     max-width: 70em;
   }
   
@@ -55,6 +55,8 @@
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   transition: all 1s ease;
+  width: 100%;
+  padding: 0.5rem;
   }
 
 .park img:hover,.speedway img:hover,.museum img:hover,.fossil img:hover,.barn img:hover,.drive-in img:hover:hover{
