@@ -277,13 +277,9 @@ nav {
 }
 
 .population img, .farm img,.occupations img,.industries img, .tower img {
-  padding: 5px;
+  padding: 0.5rem;
   width: 100%;
   background-color: white;
-  border: 10px solid white;
-}
-.farm img {
-  border: none;
 }
 
 .info,
