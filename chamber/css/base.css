@@ -132,17 +132,23 @@ nav {
     background-color: #189AB4;
   }
   
-.responsive li {
-    display: block;
-    width: 100%;
-  }
+
   
 .responsive .hamburgerBtn::before {
     content: "❎";
   }
 
-.responsive #menuBtn, .navigation li {
+.responsive #menuBtn{
+  display: none;
+}
+
+.navigation li {
     display: none;
+  }
+
+.responsive li {
+    display: block;
+    width: 100%;
   }
 
 .social {
