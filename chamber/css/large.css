@@ -2,14 +2,20 @@
   .home {
     grid-template-columns: 1fr 1fr 1fr 275px;
   }
+  .firstCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .statisticsMadera{
-    grid-template-columns: 1fr 350px;
+    grid-template-columns: 1fr 35%;
   }
   .home,.statisticsMadera,
   .heading,
   .footer,
   .home, .statisticsMadera {
     margin: 10px auto;
+    align-items: ;
   }
   .home,.statisticsMadera{
     max-width: 70em;
@@ -50,23 +56,6 @@
     grid-column: 3/4;
     grid-row: 1;
   }
-
-.park img,.speedway img,.museum img,.fossil img,.barn img,.drive-in img,.tower img, .welcome img. .farm img {
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  transition: all 1s ease;
-  width: 100%;
-  padding: 0.75rem;
-  }
-
-.park img:hover,.speedway img:hover,.museum img:hover,.fossil img:hover,.barn img:hover,.drive-in img:hover:hover,.welcome img:hover,.tower img:hover,.farm img:hover {
-  filter: grayscale(0%);
-  filter: gray;
-  -webkit-filter: grayscale(0%);
-  filter: none;
-  transition: 1s ease;
-  box-shadow: 0 0 5px 5px white;
-    }
 
   .assignmentFooter p:nth-child(4) {
     display: inline;

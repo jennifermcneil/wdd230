@@ -132,8 +132,6 @@ nav {
     background-color: #189AB4;
   }
   
-
-  
 .responsive .hamburgerBtn::before {
     content: "❎";
   }
