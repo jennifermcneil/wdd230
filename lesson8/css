@@ -1,0 +1,46 @@
+body {
+  font-family: Ubuntu, sans-serif;
+  margin: 0 auto;
+}
+
+table {
+  width: 50%;
+  background-color: gray;
+  box-shadow: 10px 10px 10px #638ca5;
+  margin: 0 auto;
+  text-align: center;
+}
+
+th,table,
+td {
+  padding: 0.8em; 
+  border: 2px solid #a8b6ba;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+tbody {
+  background-color: #e7ffed;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+thead,
+tfoot {
+  background-color: #7fb9c2;
+}
+
+.theader {
+  font-size: 1.6rem;
+}
+.category {
+  font-size: 1.2em;
+}
+
+.category,
+.hit-goals {
+  background-color: #628ca6;
+  color: white;
+}
