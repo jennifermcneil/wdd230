@@ -39,6 +39,8 @@ footer {
   }
   footer{
     color: #05445E;
+    background-color: white;
+    padding: 1rem;
   }
   
 header {
@@ -62,12 +64,7 @@ nav ul {
   }
   
 nav a {
-    /* text-decoration: none;
-    display: block;
-    text-align: center; */
     color: #05445E;
-    /* padding: 0.75rem;
-    font-size: .95rem; */
   }
   
 nav a:hover {
@@ -96,7 +93,7 @@ img {
   }
   
 h2 {
-    background-color: white; 
+    padding: 1rem; 
   }
   
 div {
@@ -115,8 +112,10 @@ section ul {
   }
 
 table {
-    padding-bottom: .5rem;
     display: inline-table;
+    border: .5px solid #05445E ;
+    box-shadow: 0 0 10px #bfbec5;
+   
 }
 .colors {
     width: 100%;
@@ -126,27 +125,29 @@ table {
 :root {
     --primary-color: #6FCEDC ;
     --secondary-color: #05445e;
-    --accent1-color: #99999;
+    --accent1-color: #189AB4;
     --accent2-color: #D4F1F4;
+    --accent3-color: #bfbec5;
   }
 
 .colors th {
-    background-color: #999;
+    background-color: #bfbec5;
     color:black;
   }
 
 .colors td{
     width: 25%;
-    height: 3em;
+    height: 2em;
   }
 td.accent1{
-  color: #05445E;
+  color: white;
+  
 } 
 td.secondary{
   color:  white;
 }
 td.primary{
-  color: rgb(0,0,0);
+  color:white;
 }
 td.accent2{
   color: black;
