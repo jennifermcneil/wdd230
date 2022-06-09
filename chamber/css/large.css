@@ -12,12 +12,12 @@
   }
   .home,.statisticsMadera,
   .heading,
-  .footer,
-  .home, .statisticsMadera {
+  .footer,.join-page,.thank-you,
+  main {
     margin: 10px auto;
-    align-items: ;
+    
   }
-  .home,.statisticsMadera{
+  .home,.join-page,.thank-you,.statisticsMadera{
     max-width: 70em;
   }
   
@@ -56,7 +56,26 @@
     grid-column: 3/4;
     grid-row: 1;
   }
+ /*--- form styling--- */
+ .join-page,
+  .contact-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
 
+  .member-small {
+    display: none;
+  }
+
+  .membership-levels,
+  .chamber-info {
+    margin: 0.75rem auto;
+    display: block;
+    width: 95%;
+  }
+
+  /* --- form styling end --- */
   .assignmentFooter p:nth-child(4) {
     display: inline;
   }

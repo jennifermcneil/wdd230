@@ -68,6 +68,8 @@ form{
   max-width: 70em;
   margin: 0 auto;
   text-align: center;
+  color: white;
+  background-color: #05445E;
 }
 
 .chamber-map {
@@ -83,7 +85,8 @@ form{
   display: block;
   border-radius: 5px;
   padding: 0.5rem;
-  width: 90%;
+  width: 100%;
+  background-color: #D4F1F4;
 }
 
 .input:required {
@@ -115,12 +118,13 @@ label {
 
 .membership {
   padding-top: 1.2rem;
+  padding-bottom: 2rem;
 }
 
 .chamber-info {
-  border: 2px solid rgba(191, 190, 197, 1);
+  border: 2px solid #A2E0E8;
   margin: 4px 0;
-  background-color: rgba(234, 232, 255, 1);
+  background-color: #D4F1F4;
 }
 
 .chamber-address p {
@@ -128,26 +132,33 @@ label {
 }
 
 fieldset {
-  border: 2px solid rgba(191, 190, 197, 1);
+  border: 4px solid #189AB4;
+  background-color: white;
+  box-shadow: 4px 4px 10px #05445E;
 }
 
 .price {
   color: white;
-  background-color: rgba(45, 49, 66, 1);
-  padding: 0 5px;
+  background-color: #05445E;
+  padding: 0 10px;
   border-radius: 5px;
 }
 
 .membership-levels {
-  border: 2px solid rgba(191, 190, 197, 1);
+  border: 4px solid #189AB4;
   margin: 4px 0;
   display: none;
-  background-color: rgba(234, 232, 255, 1);
+  background-color: #A2E0E8;
 }
+
 
 .membership-levels p,
 .chamber-info {
   padding: 0.5rem;
+}
+.levels{
+  margin: 10px;
+  padding: 5px;
 }
 
 .chamber-info h3,
@@ -163,6 +174,8 @@ input[type="radio"] {
   width: 20px;
   height: 20px;
   vertical-align: bottom;
+  border-color: #189AB4;
+  background-color: #A2E0E8;
 }
 
 /*  --- End Form styling --- */
@@ -351,6 +364,7 @@ nav {
 
 .event a, .weather-link {
   text-decoration: none;
+  color: #05445E;
 }
 
 .join h2 {
@@ -386,6 +400,12 @@ nav {
   background-color: #D4F1F4;
   padding: 5px;
   text-align: center;
+}
+
+.non,.bronze,.silver,.gold{
+  margin: 10px;
+  border: 2px solid #189AB4;
+  box-shadow: 3px 3px 10px #05445E;
 }
 
 .population img, .farm img,.occupations img,.industries img, .tower img {
@@ -451,6 +471,39 @@ nav {
   font-size: 1em;
   padding: 0.8rem 0;
 }
+
+/* --- thank you page --- */
+.thank-you {
+  margin: 10px auto;
+  display: block;
+}
+.thank-you img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #05445E;
+  box-shadow: 3px 3px 10px #05445E;
+}
+
+.big {
+  font-size: 3rem;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 10px;
+}
+
+.glad {
+  font-size: 1.5rem;
+  border: 4px #05445E;
+  border-style: dotted solid;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 10px;
+  background-color: #D4F1F4;
+}
+
+/* --- End thank you page --- */
 
 .map,
 .address {
