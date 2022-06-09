@@ -67,7 +67,9 @@
   .member-small {
     display: none;
   }
-
+ .member img{
+   margin-right: 25px;
+ }
   .membership-levels,
   .chamber-info {
     margin: 0.75rem auto;
