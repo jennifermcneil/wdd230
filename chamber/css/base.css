@@ -57,7 +57,115 @@ footer {
   grid-template-columns: 90px auto;
   align-items: center;
 }
+/* --- Form styling ---*/
+form{
+  margin: 0.75rem auto;
+  width: 100%;
+  background-color: #A2E0E8;
+}
+.join-header,
+.contact-header {
+  max-width: 70em;
+  margin: 0 auto;
+  text-align: center;
+}
 
+.chamber-map {
+  margin: 5px auto;
+  text-align: center;
+}
+
+.radio {
+  padding: 5px;
+}
+
+.input {
+  display: block;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 90%;
+}
+
+.input:required {
+  border-left: 5px solid #189AB4;
+}
+
+.input:required:valid {
+  border-left: 5px solid #05445E;
+}
+
+label {
+  padding-top: 0.8rem;
+  display: block;
+}
+
+.joinBtn {
+  border: none;
+  background-color: #05445E;
+  color: white;
+  border-radius: 5px;
+  padding: 0.8rem;
+}
+
+.joinBtn:active {
+  background-color: white;
+  color: #05445E;
+  border: 1px solid #D4F1F4;
+}
+
+.membership {
+  padding-top: 1.2rem;
+}
+
+.chamber-info {
+  border: 2px solid rgba(191, 190, 197, 1);
+  margin: 4px 0;
+  background-color: rgba(234, 232, 255, 1);
+}
+
+.chamber-address p {
+  margin: 0;
+}
+
+fieldset {
+  border: 2px solid rgba(191, 190, 197, 1);
+}
+
+.price {
+  color: white;
+  background-color: rgba(45, 49, 66, 1);
+  padding: 0 5px;
+  border-radius: 5px;
+}
+
+.membership-levels {
+  border: 2px solid rgba(191, 190, 197, 1);
+  margin: 4px 0;
+  display: none;
+  background-color: rgba(234, 232, 255, 1);
+}
+
+.membership-levels p,
+.chamber-info {
+  padding: 0.5rem;
+}
+
+.chamber-info h3,
+h4 {
+  padding-left: 0;
+}
+
+textarea {
+  margin-bottom: 0.8rem;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  vertical-align: bottom;
+}
+
+/*  --- End Form styling --- */
 .small {
   display: none;
 }
@@ -83,7 +191,7 @@ footer {
 
 aside {
   margin: 0.5rem;
-  border: 1px solid #bbb;
+  border: 1px solid #bfbec5;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: #05445E;
@@ -362,7 +470,7 @@ nav {
 }
 
 .assignmentFooter {
-  border-top: 1px solid grey;
+  border-top: 1px solid #bfbec5;
   font-size: 0.75rem;
 }
 
