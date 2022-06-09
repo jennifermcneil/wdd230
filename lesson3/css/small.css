@@ -57,10 +57,9 @@ nav{
 
 nav ul {
     list-style-type: none;
-    padding: 0;
     overflow: hidden;
     margin: 16px;
-    list-style-type: none; 
+    
   }
   
 nav a {
@@ -81,7 +80,16 @@ nav ul li a {
 }
 .oswald{
   font-family: Oswald, serif;
+  font-weight: bold;
 }
+.quicksand{
+  font-weight: bold;
+}
+
+.palette {
+  color: #05445E;
+}
+
 .active {
 	color: rgb(2, 28, 41);
 } 
