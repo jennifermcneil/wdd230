@@ -46,31 +46,34 @@ main {
 
 ul {
     padding: 2rem 3rem;
-    color:  rgb(38, 62, 65);
+    color:  #05445E;
 }
 header,
 footer {
-    background-color: rgb(111, 206, 220);
+    background-color: #05445E;
     color: white;
-    text-shadow: 3px 3px 3px #999;
+    text-shadow: 3px 3px 3px #bfbec5;
     border-radius: 15px;
     text-align: center;
-    box-shadow: 5px 5px 5px #999;
+    box-shadow: 5px 5px 5px #bfbec5;
 }
 
 h2 {
     padding: 10px;
-    text-shadow: 3px 3px 3px #999;
-    color:  rgb(38, 62, 65);
+    text-shadow: 3px 3px 3px #bfbec5;
+    color:  #05445E;
 }
 
 h1 {
     font-family: Oswald, serif;
     letter-spacing: 4px;
     font-weight: 400;
-    text-shadow: 3px 3px 3px #999;   
+    text-shadow: 3px 3px 3px #bfbec5;   
 }
 
+a {
+    color: #05445E;
+}
 p {
     padding-left: 10px;
 }
