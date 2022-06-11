@@ -164,10 +164,12 @@
             >Last Name*<input class="input" type="text" name="lname" required
           /></label>
           <label
-            >Position Title<input
+            >Position Title<br>(Minimum of 7 characters, letters, spaces, and
+            hyphens only.)<input  
+              pattern="[a-zA-Z\s\-]{7,}" 
               class="input"
               type="text"
-              name="positionTitle"
+              name="positionTitle" 
               placeholder="What is your title?"
           /></label>
           <label
