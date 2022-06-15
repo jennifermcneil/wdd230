@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 65em;
+    font-family: Cousine, monospace;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #05445E;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 15px 5px #bfbec5;
+}
+
+cards {
+    background-color: #05445E;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+h1, h2 {
+    color:#bfbec5
+}
+
+section {
+    background-color: #A2E0E8;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    box-shadow: 5px 5px 10px 1px #bfbec5;
+}
+
+section img {
+    width: 95%;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
