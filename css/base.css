@@ -5,7 +5,6 @@
 }
 
 body {
-    max-width: 600px;
     margin: 0 auto;
     margin-top: 10px;
     font-family: Cousine, monospace;
@@ -17,19 +16,18 @@ body {
 header,
 main,
 footer {
-    max-width: 700px;
-    margin: 1rem auto;
+    max-width: 730px;
+    margin: auto;
 }
 
 header {
-    
     border: 1px solid #bbb;
     display: grid;
     grid-gap: 1em;
     grid-template-columns: 1fr 2fr;
     font-weight: 300;
     align-items: center;
-    grid
+    text-align: center;
 }
 
 header img {
@@ -41,7 +39,6 @@ header img {
 main {
     display: grid;
     padding: .5rem;
-    
 }
 
 ul {
