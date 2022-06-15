@@ -16,10 +16,11 @@
 
     h1{
       letter-spacing: 3px;
-      color: rgb(43, 43, 43);
+      color: #05445E;
     }
     h2{
       font-weight:300;
+      color: #05445E;
     }
     h3 {
       background-color: RGB(84, 83, 83);
