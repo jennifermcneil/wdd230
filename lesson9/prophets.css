@@ -59,6 +59,7 @@ section > p {
 }
 
 section img {
+    
     margin: 10px;
     height: 300px;
     border: 2px dashed white;
