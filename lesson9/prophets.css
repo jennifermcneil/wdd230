@@ -7,18 +7,18 @@
 body{
     display: block;
     /* max-width: 65em; */
-    font-family: Cousine, monospace;
+    font-family: "Quicksand", sans-serif;
     font-size: 16px;
     text-align: center;
     margin: 0 auto;
 }
 
 main {
-    display: block;
+    /* display: block; */
     background-color: #A2E0E8;
     padding: 1rem;
-    margin: 0 auto;
-    box-shadow: 1px 1px 15px 5px #bfbec5;
+    /* margin: 0 auto; */
+    /* box-shadow: 1px 1px 15px 5px #bfbec5; */
     }
 
 .cards {
@@ -29,29 +29,32 @@ main {
 }
 
 h1 {
-    color: #189AB4;
+    color: #05445E;
     padding: 1rem;
+    font-family: "Oswald", serif;
+    font-size: 3em;
 }
 h2 {
     padding: 1rem;
-    color: #bfbec5;
+    color: white;
 }
 
 p {
     padding: 0.2rem;
-    color: #bfbec5;
+    color: #A2E0E8;
 }
 
 section {
     background-color: #05445E;
-    border: 1px solid white;
+    border: 1px solid #189AB4;
     border-radius: 5px;
     padding: 0.5rem;
     margin: 0.5rem;
-    box-shadow: 5px 5px 10px 1px #bfbec5;
+    box-shadow: 5px 5px 10px 1px #189AB4;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2rem;
 }
 
 section > p {
@@ -59,12 +62,14 @@ section > p {
 }
 
 section img {
-    padding: 1rem;
+    margin: 10px;
     width: auto;
     max-width: 325px;
-    height: 200px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px 1px #bfbec5;
+    height: 300px;
+    border: 2px dashed white;
+    outline: 0.5rem solid #189AB4;
+   
+  
 }
 
 footer {
