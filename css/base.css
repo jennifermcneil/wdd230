@@ -7,25 +7,23 @@
 body {
     margin: 0 auto;
     margin-top: 10px;
-    font-family: Cousine, monospace;
-    font-size: 20px;
-    font-weight: 300;
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
     padding: .5rem;
 }
 
 header,
 main,
 footer {
-    max-width: 730px;
+    max-width: 850px;
     margin: auto;
 }
 
 header {
-    border: 1px solid #bbb;
+    border: 1px solid #bfbec5;
     display: grid;
-    grid-gap: 1em;
+    grid-gap: .5em;
     grid-template-columns: 1fr 2fr;
-    font-weight: 300;
     align-items: center;
     text-align: center;
 }
@@ -65,7 +63,8 @@ h1 {
     font-family: Oswald, serif;
     letter-spacing: 4px;
     font-weight: 400;
-    text-shadow: 3px 3px 3px #bfbec5;   
+    text-shadow: 3px 3px 3px #bfbec5;
+    text-align: center;   
 }
 
 a {
