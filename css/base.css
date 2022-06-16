@@ -31,9 +31,8 @@ header {
 header img {
     max-width: 100%;
     padding: 1rem;
-    /* box-shadow: 5px 5px 5px #999; 
-} */
 }
+
 main {
     display: grid;
     padding: .5rem;
