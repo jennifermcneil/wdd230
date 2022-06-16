@@ -14,12 +14,9 @@ body{
 }
 
 main {
-    /* display: block; */
     background-color: #A2E0E8;
     padding: 1rem;
-    /* margin: 0 auto; */
-    /* box-shadow: 1px 1px 15px 5px #bfbec5; */
-    }
+}
 
 .cards {
     display: grid;
@@ -68,8 +65,6 @@ section img {
     height: 300px;
     border: 2px dashed white;
     outline: 0.5rem solid #189AB4;
-   
-  
 }
 
 footer {
