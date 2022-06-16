@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: block;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #A2E0E8;
+    padding: 1rem;
+}
+h1 {
+    color: #05445E;
+    padding: 1rem;
+    font-family: "Oswald", serif;
+    font-size: 3em;
+}
+
+h2  {
+    font-family: "Oswald", serif;
+    color: #05445E;
+    padding: 3rem 1rem 1rem 1rem;
+}
