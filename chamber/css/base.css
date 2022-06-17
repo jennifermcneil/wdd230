@@ -157,7 +157,6 @@ fieldset {
   background-color: #A2E0E8;
 }
 
-
 .membership-levels p,
 .chamber-info {
   padding: 0.5rem;
@@ -185,6 +184,73 @@ input[type="radio"] {
 }
 
 /*  --- End Form styling --- */
+/* --- directory buttons --- */
+.view-buttons {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+}
+.grid-view {
+  margin-right: 1rem;
+}
+.list-view {
+  margin-left: 1rem;
+}
+.bus-card {
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 2px #bfbec5;
+  line-height: 1.5em;
+}
+.bus-card p {
+  margin: 0;
+}
+.bus-card p:nth-child(2){
+  display: none;
+}
+.bus-card img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.dir-list section {
+  display: block;
+  text-align: left;
+}
+.dir-list section:nth-child(even){
+  background-color: #A2E0E8;
+}
+.dir-list img {
+  display: none;
+}
+.dir-list p:nth-child(2) {
+  display: contents;
+}
+/* ---Directory end --- */
+
+.card {
+  width: 17em;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 2px #bfbec5;
+  overflow: hidden;
+  line-height: 1.5em;
+}
+.card p {
+  padding: .8em;
+  border-top: 1px solid #189AB4;
+}
+.card img {
+  width: 90%;
+  display: block;
+  margin: 0.8rem auto;
+}
+.discover, .d-cards {
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-items: center;
+  gap: 1em;
+}
 .small {
   display: none;
 }
