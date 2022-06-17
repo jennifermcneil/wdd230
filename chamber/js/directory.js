@@ -1,7 +1,7 @@
 const resquestURL = 'https:jennifermcneil.github.io/wdd230/chamber/data/data.json';
 const cards = document.querySelector('d-cards');
 
-fetch(requestURL)
+fetch(resquestURL)
     .then(function (response) {
         return response.json();
     })
