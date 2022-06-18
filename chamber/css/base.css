@@ -198,19 +198,24 @@ input[type="radio"] {
 }
 .bus-card {
   border-radius: 5px;
-  box-shadow: 1px 1px 5px 2px #bfbec5;
+  box-shadow: 1px 1px 10px 2px #189AB4;
   line-height: 1.5em;
+  max-width: 20em;
 }
 .bus-card p {
-  margin: 0;
+  margin: 0; 
+}
+.bus-card a {
+  color: #05445E;
 }
 .bus-card p:nth-child(2){
   display: none;
 }
 .bus-card img {
-  width: 50%;
+  width: 60%;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
+  border: 5px solid #05445E;
 }
 .dir-list section {
   display: block;
@@ -467,7 +472,7 @@ nav {
   height: auto;
 }
 
-.placeholderBox {
+.directoryBox,.placeholderBox {
   border: 1px solid #A2E0E8;
   background-color: #D4F1F4;
   padding: 5px;

@@ -26,7 +26,7 @@
             "state": "CA",
             "position": "owner",
             "cellphone": "(559)456-7894",
-            "membershiplevel": "gold",
+            "membershiplevel": "Gold Member",
             "imageurl": "images/directory-logos/fastway.webp",
             "motto": "Fried Chicken like your mama makes"
         },
@@ -41,7 +41,7 @@
             "state": "CA",
             "position": "owner",
             "cellphone": "(559)789-1234",
-            "membershiplevel": "bronze",
+            "membershiplevel": "Bronze Member",
             "imageurl": "images/directory-logos/agnturf.svg",
             "motto": ""
         },
@@ -51,12 +51,12 @@
             "email": "jlroy@sweetcake.com",
             "website": "www.sweetcake.com",
             "businessname": "Sweet Cake",
-            "address": "789 Sweet Tooth Court",
+            "address": "789 Sweet Court",
             "city": "Madera",
             "state": "CA",
             "position": "owner",
             "cellphone": "(559)567-1234",
-            "membershiplevel": "gold",
+            "membershiplevel": "Gold Member",
             "imageurl": "images/directory-logos/bakery.webp",
             "motto": "Life is short, eat dessert first!"
         },
@@ -71,7 +71,7 @@
             "state": "CA",
             "position": "owner",
             "cellphone": "(559)891-4572",
-            "membershiplevel": "gold",
+            "membershiplevel": "Gold Member",
             "imageurl": "images/directory-logos/vineyard.webp",
             "motto": "Farm Fresh to you"
         },
@@ -86,8 +86,8 @@
             "state": "CA",
             "position": "owner",
             "cellphone": "(559)892-6342",
-            "membershiplevel": "silver",
-            "imageurl": "images/directory-logo/food.webp",
+            "membershiplevel": "Silver",
+            "imageurl": "images/directory-logos/sombroso.webp",
             "motto": ""
         },
         {
@@ -101,7 +101,7 @@
             "state": "CA",
             "position": "owner",
             "cellphone": "(559)456-1237",
-            "membershiplevel": "bronze",
+            "membershiplevel": "Bronze",
             "imageurl": "images/directory-logos/pizza.webp",
             "motto": ""
         },
