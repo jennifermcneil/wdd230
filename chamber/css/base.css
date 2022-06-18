@@ -185,22 +185,51 @@ input[type="radio"] {
 
 /*  --- End Form styling --- */
 /* --- directory buttons --- */
+#main-content h1 {
+  text-align: center;
+  font-size: 2.5em;
+ 
+}
 .view-buttons {
   display: block;
   text-align: center;
   padding: 1rem;
 }
-.grid-view {
-  margin-right: 1rem;
+.dir-cards {
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-items: center;
+  gap: 1em;
 }
-.list-view {
-  margin-left: 1rem;
+
+.dir-cards h2, .dir-list h2 {
+  background-color: white;
+}
+.dir-list {
+  display: flex;
+  flex-direction: column;
+}
+.grid-view, .list-view {
+  border: none;
+  background: white;
+}
+.grid-view img, .list-view img {
+  width: 100%;
+  padding: .5rem;
+}
+.dir-list>.directoryBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  text-align: left;
+  padding: .5rem;
+  margin-bottom: 1rem;
 }
 .bus-card {
   border-radius: 5px;
   box-shadow: 1px 1px 10px 2px #189AB4;
   line-height: 1.5em;
-  max-width: 20em;
+  text-align: left;
 }
 .bus-card p {
   margin: 0; 
@@ -216,10 +245,6 @@ input[type="radio"] {
   display: block;
   margin: 20px auto;
   border: 5px solid #05445E;
-}
-.dir-list section {
-  display: block;
-  text-align: left;
 }
 .dir-list section:nth-child(even){
   background-color: #A2E0E8;
@@ -249,13 +274,14 @@ input[type="radio"] {
   display: block;
   margin: 0.8rem auto;
 }
-.discover, .d-cards {
+.discover {
   margin: 10px auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   justify-items: center;
   gap: 1em;
 }
+
 .small {
   display: none;
 }

@@ -15,7 +15,7 @@ function displayBusinesses(business) {
   //Create elements to add to the document
   let card = document.createElement('section')
   card.classList.add('directoryBox', 'bus-card')
-  let businessName = document.createElement('p')
+  let businessName = document.createElement('h2')
   let logo = document.createElement('img')
   let address = document.createElement('p')
   let phone = document.createElement('p')
@@ -77,20 +77,26 @@ listView.addEventListener(
   true
 )
 
+
 cardView.addEventListener(
   'click',
   () => {
-    cards.classList.add('dir-list')
+    cards.classList.add('dir-cards')
   },
   true
 )
 cardView.addEventListener(
   'click',
   () => {
-    cards.classList.remove('dir-cards')
+    cards.classList.remove('dir-list')
   },
   true
 )
+
+function onload(){
+    cards.classList.add('dir-cards')
+}
+
 // const resquestURL = 'https:jennifermcneil.github.io/wdd230/chamber/data/data.json';
 // const cards = document.querySelector('d-cards');
 
