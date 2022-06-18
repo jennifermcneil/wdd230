@@ -39,6 +39,10 @@ footer {
   padding: 0.5rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 #banner {
   display: flex;
   margin: 0 auto;
