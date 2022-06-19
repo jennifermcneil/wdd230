@@ -116,7 +116,7 @@
             "state": "CA",
             "position": "manager",
             "cellphone": "(559)324-8965",
-            "membershiplevel": "non-profit",
+            "membershiplevel": "Non-profit",
             "imageurl": "images/directory-logos/foodbank.webp",
             "motto": "Serving the food needs of Madera"
         },
@@ -131,7 +131,7 @@
             "state": "CA",
             "position": "manager",
             "cellphone": "(559)254-5413",
-            "membershiplevel": "non-profit",
+            "membershiplevel": "Non-profit",
             "imageurl": "images/directory-logos/help.webp",
             "motto": ""
         }
