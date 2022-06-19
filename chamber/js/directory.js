@@ -1,5 +1,5 @@
 const resquestURL =
-  'https:jennifermcneil.github.io/wdd230/chamber/data/data.json'
+  'https://jennifermcneil.github.io/wdd230/chamber/data/data.json'
 const cards = document.querySelector('.d-cards')
 
 function fetchData() {
@@ -76,7 +76,6 @@ listView.addEventListener(
   },
   true
 )
-
 
 cardView.addEventListener(
   'click',
