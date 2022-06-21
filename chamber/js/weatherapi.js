@@ -5,7 +5,7 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
 const apiURL =
-    "https://api.openweathermap.org/data/3.0/onecall?lat={36.9613}&lon={-120.0607}&exclude={hourly,daily}&appid={aec4fb444210e21d8c91b0b6f82f2bba}"
+    "https://api.openweathermap.org/data/3.0/onecall?lat={36.9613}&lon={-120.0607}&exclude={hourly,daily}&appid={ 68226c34828b073438e6bedd8e249327}"
 
     async function apiFetch() {
         try {
