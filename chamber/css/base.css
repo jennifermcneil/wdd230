@@ -39,8 +39,8 @@ footer {
   padding: 0.5rem;
 }
 
-a {
-  text-decoration: none;
+a:visited {
+  color: #05445E;
 }
 
 #banner {
