@@ -31,3 +31,7 @@ h2  {
 img {
     width: 50%;
 }
+
+a:visited, a:active, a:required, a:hover {
+    color: #05445E;
+  }

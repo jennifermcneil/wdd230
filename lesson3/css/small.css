@@ -119,6 +119,10 @@ section ul {
     padding: 0.75rem 0.75rem 0.75rem 2rem;
   }
 
+a:visited, a:active, a:required, a:hover {
+    color: #05445E;
+  }
+
 table {
     display: inline-table;
     border: .5px solid #05445E ;

@@ -43,3 +43,7 @@ tfoot {
   background-color: #628ca6;
   color: white;
 }
+
+a:visited, a:active, a:required, a:hover {
+  color: #05445E;
+}

@@ -66,6 +66,10 @@ section img {
     outline: 0.5rem solid #189AB4;
 }
 
+a:visited, a:active, a:required, a:hover {
+    color: #05445E;
+  }
+  
 footer {
     border-top: 1px solid white;
     padding: 0.5rem;

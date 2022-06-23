@@ -16,3 +16,6 @@ picture {
     filter: blur(0em);
     transition: filter 0.5s;
   }
+  a:visited, a:active, a:required, a:hover {
+    color: #05445E;
+  }

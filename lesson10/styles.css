@@ -15,7 +15,7 @@ h2 {
     text-transform: uppercase;
 }
 
-h3{
+hr{
     border: 0;
     height: 3px;
     background: #05445E; 
@@ -24,7 +24,7 @@ h3{
 
 #icon-src {
     font-family: monospace;
-    font-family: 1rem;
+    font-size: 1rem;
 }
 
 figcaption {
@@ -37,8 +37,12 @@ figcaption {
 }
 
 .display {
-    margin: 1rem 0 1 rem 0.5rem;
+    margin: 1rem 0 1rem 0.5rem;
 }
+
+a:visited, a:active, a:required, a:hover {
+    color: #05445E;
+  }
 
 .box {
     margin: 1rem 0;

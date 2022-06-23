@@ -75,6 +75,10 @@ p {
     padding-left: 10px;
 }
 
+a:visited, a:active, a:required, a:hover {
+    color: #05445E;
+  }
+
 footer {  
     padding: 1rem; 
 }
