@@ -1,4 +1,4 @@
-const info = '68226c34828b073438e6bedd8e249327';
+const info = 'aec4fb444210e21d8c91b0b6f82f2bba';
 
 // the div that will hold the weather icon and temperature
 const currentConditions = document.querySelector('.currentconditions');
