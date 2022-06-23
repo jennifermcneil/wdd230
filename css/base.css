@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0 auto;
-    margin-top: 10px;
-    font-family: "Quicksand", sans-serif;
-    font-size: 25px;
-    padding: .5rem;
-}
-
 header,
 main,
 footer {
@@ -41,6 +33,13 @@ header {
 header img {
     max-width: 100%;
     padding: 1rem;
+}
+
+body {
+    margin-top: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    padding: .5rem;
 }
 
 main {
