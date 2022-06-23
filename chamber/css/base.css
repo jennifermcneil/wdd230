@@ -360,7 +360,8 @@ nav {
 
 #menuBtn{
   color: white;
-  padding: 5px;
+  padding: 0 5px;
+  background-color: #05445E;
 }
 
 .navigation a:hover {
@@ -518,13 +519,14 @@ nav {
   text-align: center;
 }
 
+
 .non,.bronze,.silver,.gold{
   margin: 10px;
   border: 2px solid #189AB4;
   box-shadow: 3px 3px 10px #05445E;
 }
 
-.population img, .farm img,.occupations img,.industries img, .tower img {
+.welcome img, .population img, .farm img,.occupations img,.industries img, .tower img {
   padding: 0.5rem;
   width: 100%;
   background-color: white;

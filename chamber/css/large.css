@@ -37,12 +37,12 @@
     font-size: 1.2em;
   }
   .heading {
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
      }
 
   .logoBox {
-    padding-right: 2em;
+    padding-right: 2.5em;
     align-items: center;
     grid-column: 1/2;
     grid-row: 1;
@@ -52,12 +52,6 @@
     display: none;
   }
 
-  .social {
-    margin-right: 20px;
-    text-align: right;
-    grid-column: 3/4;
-    grid-row: 1;
-  }
  /*--- form styling--- */
  .join-page,
   .contact-page {
