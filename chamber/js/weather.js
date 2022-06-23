@@ -1,9 +1,9 @@
-const info = 'f66666e34de75c8542449d7d4931f7b6';
+const info = '68226c34828b073438e6bedd8e249327';
 
 // the div that will hold the weather icon and temperature
 const currentConditions = document.querySelector('.currentconditions');
 
-const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=Paducah,ky,us&units=imperial&APPID=${info}`
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=Madera,ca,us&units=imperial&APPID=${info}`
 
 fetch(apiURL)
   .then((response) => response.json())

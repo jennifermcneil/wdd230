@@ -53,7 +53,7 @@ a:visited, a:active, a:required, a:hover {
   grid-row: 4;
   text-align: center;
   box-sizing: border-box;
-  box-shadow: 5px 5px 5px #bbb;
+  box-shadow: 5px 5px 5px #bfbec5;
 
 }
 .heading {
@@ -524,7 +524,7 @@ nav {
   box-shadow: 3px 3px 10px #05445E;
 }
 
-.windy img,.population img, .farm img,.occupations img,.industries img, .tower img {
+.population img, .farm img,.occupations img,.industries img, .tower img {
   padding: 0.5rem;
   width: 100%;
   background-color: white;
@@ -533,18 +533,43 @@ nav {
 .info,
 .wind {
   font-size: 0.8em;
-  border-top: 1px solid rgba(191, 190, 197, 1);
+  border-top: 1px solid #bfbec5;
+}
+
+.wind {
+  margin-top: 0;
+  padding: 0;
+}
+
+.windChill p {
+  margin-top: 0;
 }
 
 .currentconditions {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0.8rem;
+}
+
+.current, .event h3, .join p, .news p {
+  padding-top: 25px;
+}
+
+#description {
+  
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #05445E;
 }
 
 .weather p {
-  margin: 0.5rem;
+  margin-top: 2rem;
+  padding: 1px;
+}
+
+.weather-link {
+  text-decoration: none;
 }
 
 .icon {
@@ -552,6 +577,7 @@ nav {
 }
 
 .temperature {
+  font-family: "Oswald", serif;
   font-size: 1.5rem;
   display: inline;
 }

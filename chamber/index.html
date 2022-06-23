@@ -185,19 +185,14 @@
       <div class="placeholderBox weather">
         <section>
           <h2>Weather</h2>
-          <div class="wind">
-            <picture>
-              <img
-                class="windy"
-                src="images/partlycloudylogo.png"
-                alt="Madera Weather Report"
-                width="120"
-              />
-            </picture>
-            <p>Temperature: <span id="temperature">32</span></p>
-            <p>Wind Speed: <span id="windSpeed">10</span> mph</p>
-            <p>Wind Chill: <span id="windChill"></span></p>
+          <div class="current">
+            <h3>Current Conditions</h3>
           </div>
+          <div class="currentconditions"></div>
+          <p><span id="description"></span></p>
+          <div class"wind">
+          <p>Wind Speed: <span id="windSpeed"></span> mph</p>
+          <p class="windChill">Wind Chill: <span id="windChill"></span></p>
         </section>
       </div>
       <div class="placeholderBox news">
@@ -213,7 +208,7 @@
       <div class="placeholderBox join">
         <h2><a href="join.html">Join Us!</a></h2>
         <p>
-          Join the chamber of commerce and discover how it will benefit your organization.
+          Join the Chamber of Commerce and discover how it will benefit your organization.
         </p>
       </div>
       <div class="placeholderBox spotlight">
@@ -279,15 +274,7 @@
           >
         </div>
       </div>
-      <p>
-        Weather information provided by
-        <a
-          class="weather-link"
-          href="https://openweathermap.org/city/5369568"
-          target="_blank"
-          >OpenWeatherMap.org</a
-        >
-      </p>
+
       <div class="assignmentFooter"></div>
 
       ©️ <span id="currentYear"></span> Madera Chamber of Commerce |
@@ -298,6 +285,6 @@
     <script src="js/currentdate.js"></script>
     <script src="js/hamburgerButton.js"></script>
     <script src="js/banner.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
