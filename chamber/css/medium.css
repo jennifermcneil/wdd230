@@ -33,7 +33,7 @@
   .assignmentFooter p:nth-child(4), .placeholderBox:nth-child(5) {
     display: block;
   }
-
+  
   .footer {
     display: flex;
     justify-content: space-between;

@@ -14,13 +14,19 @@ function fetchData() {
 function displayBusinesses(business) {
   //Create elements to add to the document
   let card = document.createElement('section')
-  card.classList.add('directoryBox', 'bus-card')
+  card.classList.add('directoryBox')
   let businessName = document.createElement('h2')
   let logo = document.createElement('img')
   let address = document.createElement('p')
   let phone = document.createElement('p')
   let website = document.createElement('a')
   let membershiplevel = document.createElement('p')
+  address.classList.add("no-show")
+  website.classList.add("no-show")
+  logo.classList.add("no-show")
+  phone.classList.add("list-pad")
+  membershiplevel.classList.add("list-pad")
+
 
   // Add the textContent property to fill the directory
   businessName.textContent = `${business.businessname}`
@@ -43,7 +49,7 @@ function displayBusinesses(business) {
   card.appendChild(phone)
   card.appendChild(website)
   card.appendChild(membershiplevel)
-  console.log(card)
+  // console.log(card)
   // Add/append the existing HTML with the d-cards with the section(card)
   cards.appendChild(card)
 }

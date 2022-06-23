@@ -39,7 +39,7 @@ footer {
   padding: 0.5rem;
 }
 
-a:visited {
+a:visited, a:active, a:required, a:hover {
   color: #05445E;
 }
 
@@ -222,28 +222,37 @@ input[type="radio"] {
   padding: .5rem;
 }
 .dir-list>.directoryBox {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ 
   text-align: left;
   padding: .5rem;
   margin-bottom: 1rem;
 }
-.bus-card {
+
+.no-show {
+  display: none;
+}
+.list-pad{
+  padding: 3px;
+  padding-bottom: 0;
+}
+.directoryBox {
   border-radius: 5px;
   box-shadow: 1px 1px 10px 2px #189AB4;
   line-height: 1.5em;
   text-align: left;
 }
-.bus-card p {
+.directoryBox p {
   margin: 0; 
+  padding: 3px;
+  padding-bottom: 0;
 }
-.bus-card a {
+.directoryBox a {
   color: #05445E;
 }
-.bus-card p:nth-child(2){
+.directoryBox p:nth-child(2){
   display: none;
 }
-.bus-card img {
+.directoryBox img {
   width: 60%;
   display: block;
   margin: 20px auto;
@@ -386,7 +395,8 @@ nav {
   display: inline-block;
 }
 .social svg{
-  width: 25px;
+  width: 30px;
+  padding: 5px;
   height: auto;
 }
 

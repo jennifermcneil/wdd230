@@ -3,18 +3,19 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-const lat = 36.9613
-const lon = -120.0607
+const windSpeed = document.querySelector('#speed')
+
+const lat = 64.8378
+const lon = -147.7164
 
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=68226c34828b073438e6bedd8e249327&units=imperial`
 
-async function apiFetch() {
+async function apiFetch(url) {
     try {
         const response = await fetch(url);
         if (response.ok) {
         const data = await response.json();
-        console.log(data); 
-        
+        console.log(data); //temp
         displayResults(data);
         } else {
             throw Error(await response.text());

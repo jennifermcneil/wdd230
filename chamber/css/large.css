@@ -80,6 +80,21 @@
   }
 
   /* --- form styling end --- */
+  .dir-list>.directoryBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .no-show {
+    padding: 0.75rem;
+    display: block;
+  }
+
+  .list-pad{
+    padding: 0.75rem;
+
+  }
+
   .assignmentFooter p:nth-child(4) {
     display: inline;
   }
