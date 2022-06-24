@@ -431,8 +431,8 @@ nav {
   grid-gap: 2em;
 }
 .hero img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  /* height: auto; */
 }
 
 .hero h3 {
