@@ -21,14 +21,14 @@
       color: #05445E;
     }
     h3 {
-      background-color: RGB(84, 83, 83);
+      background-color: #05445E;
       color: white;
       text-align: center;
       font-weight: bold;
       border-radius: 5px 5px 0 0;
       margin: 5px;
       padding: 5px;
-      box-shadow: 3px 3px 3px #999;
+      box-shadow: 3px 3px 3px #bfbec5;
     }
     
     main {
