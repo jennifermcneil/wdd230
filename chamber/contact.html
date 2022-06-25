@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Discover Madera - Madera Chamber of Commerce" />
+    <meta name="description" content="Contact - Madera Chamber of Commerce" />
     <link rel="shortcut icon" href="favicon.ico/favicondark.ico" />
 
     <link
@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/large.css" />
     <link rel="shortcut icon" href="favicon.ico/favicondark.ico" />
 
-    <title>Discover what is around Madera</title>
+    <title>Contact the Madera Chamber of Commerce</title>
   </head>
   <body>
     <header>
@@ -49,7 +49,7 @@
           <h1>Madera <br /><span class="smallH1"> Chamber of Commerce</span></h1>
         </div>
         <div class="social">
-          <a href="https://facebook.com">
+          <a href="https://facebook.com" aria-label="facebook">
             <svg
               enable-background="new 0 0 32 32"
               height="32px"
@@ -65,7 +65,7 @@
               <g>
                 <path
                   d="M32,30c0,1.104-0.896,2-2,2H2c-1.104,0-2-0.896-2-2V2c0-1.104,0.896-2,2-2h28c1.104,0,2,0.896,2,2V30z"
-                  fill="#05445E"
+                  fill="#05445e"
                 />
                 <path
                   d="M22,32V20h4l1-5h-5v-2c0-2,1.002-3,3-3h2V5c-1,0-2.24,0-4,0c-3.675,0-6,2.881-6,7v3h-4v5h4v12H22z"
@@ -75,7 +75,7 @@
               </g>
             </svg>
           </a>
-          <a href="https://twitter.com">
+          <a href="https://twitter.com" aria-label="Twitter">
             <svg
               height="100%"
               style="
@@ -106,7 +106,7 @@
               </g>
             </svg>
           </a>
-          <a href="https://linkedin.com">
+          <a href="https://linkedin.com" aria-label="linkedin">
             <svg
               height="100%"
               style="
@@ -154,158 +154,79 @@
           </a>
         </div>
         <aside></aside>
+        <div id="banner">
+          Come join us for the Chamber meet and greet Wednesday at 7:00 p.m.<span
+            id="close"
+          >
+            ❎
+          </span>
+        </div>
       </div>
     </header>
-    <div class="visit">
-      <p id="lastVisit"></p>
-    </div>
-    <main class="statisticsMadera">
-      <div class="firstCol">
-        <div class="placeholderBox welcome">
-          <a href="images/welcome.jpg"
-            ><img
-              class="placeholderBox tower"
-              src="images/welcome.jpg"
-              alt="Welcome to Madera"
-          /></a>
+    <h2 class="contact-header">Have a question for the Madera Chamber of Commerce?</h2>
+    <main class="contact-page" id="main-content">
+      <form action="message-received.html" method="get">
+        <fieldset>
+          <legend></legend>
+          <label
+            >First Name*<input class="input" type="text" name="fname" required
+          /></label>
+          <label
+            >Last Name*<input class="input" type="text" name="lname" required
+          /></label>
+          <label
+            >Cell Phone Number*<input
+              class="input"
+              type="tel"
+              name="phone"
+              placeholder="(xxx)xxx-xxxx"
+              required
+          /></label>
+          <label
+            >Email*<input
+              class="input"
+              type="email"
+              name="email"
+              placeholder="you@email.com"
+              required
+          /></label>
+
+          <label
+            >What is your question/concern?
+            <textarea class="input" name="description" cols="30" rows="10"></textarea>
+          </label>
+          <input type="hidden" name="dateTime" id="dateTime" value="" />
+          <input class="joinBtn" type="submit" value="Send your question" />
+        </fieldset>
+      </form>
+
+      <div class="chamber-info">
+        <h2>Visit with Us</h2>
+        <div class="chamber-map">
+          <iframe
+            title="Madera Chamber of Commerce Map"
+            src="https://maps.google.com/maps?q=120+North+E+Street,+Madera+CA&ie=UTF8&hq=&hnear=120+N+E+St,+Madera,+California+93638&gl=us&t=m&source=embed&ll=36.963095,-120.059409&spn=0.010287,0.029998&z=15&output=embed"
+          >
+          </iframe>
         </div>
-        <br />
-        <div class="placeholderBox population">
-          <h2>Population</h2>
-          <picture>
-            <img
-              class="placeholderBox"
-              src="images/population.jpg"
-              alt="Madera's Population"
-            />
-          </picture>
+        <div class="chamber-address placeholderBox">
+          <h3>Address</h3>
+          <p>Madera Chamber of Commerce</p>
+          <p>120 N E St</p>
+          <p>Madera, CA 93638</p>
+          <h3>Email</h3>
+          <p>info@maderachamber.com</p>
+          <h3>Phone</h3>
+          <p>(559) 673-3563</p>
+          <h3>Office Hours</h3>
+          <p>Monday - Friday</p>
+          <p>9am - 4pm</p>
         </div>
-        <br />
-        <div class="placeholderBox industries">
-          <h2>Most Common Industries in 2000</h2>
-          <img
-            class="placeholderBox"
-            src="images/industries.jpg"
-            alt="Madera's Most Common Industries in 2000"
-          />
+        <div class="chamber-staff placeholderBox">
+          <h3>The Chamber Staff</h3>
+          <p>Debi Bray - President</p>
+          <p>Toni Jordan - Administrative Assistant</p>
         </div>
-        <br />
-        <div class="placeholderBox farm">
-          <img
-            class="placeholderBox farm"
-            src="images/farm.jpg"
-            alt="Picture of a farm in Madera"
-          />
-        </div>
-        <br />
-        <div class="placeholderBox occupations">
-          <h2>Most Common Occupations in 2000</h2>
-          <img
-            class="placeholderBox"
-            src="./images/occupations.jpg"
-            alt="Madera's Most Common Occupations in 2000"
-          />
-        </div>
-        <br />
-        <div class="placeholderBox tower">
-          <img
-            class="placeholderBox tower"
-            src="images/watertower.jpg"
-            alt="Madera's Water Tower"
-          />
-        </div>
-      </div>
-      <div class="discover" id="main-content">
-        <article class="placeholderBox museum">
-          <picture>
-            <img
-              class="cardImg"
-              src="images/placeholder.png"
-              data-src="images/museum.jpg"
-              alt="Madera County Museum"
-            />
-          </picture>
-          <h2>Madera County Museum</h2>
-          <p>
-            The Madera County, California courthouse that was built in 1900, currently
-            serves as the Madera County Museum.
-          </p>
-        </article>
-        <article class="placeholderBox barn">
-          <picture>
-            <img
-              class="cardImg"
-              src="images/placeholder.png"
-              data-src="images/barn.jpg"
-              alt="Madera Flag Barn"
-            />
-          </picture>
-          <h2>American Flag Barn</h2>
-          <p>
-            If you love America this is a beautiful sight. It's a barn painted of our
-            American flag and is Just south of Yosemite National Park.
-          </p>
-        </article>
-        <article class="placeholderBox drive-in">
-          <picture>
-            <img
-              class="cardImg"
-              src="images/placeholder.png"
-              data-src="images/drive-in.jpg"
-              alt="Madera Drive-in Theater"
-            />
-          </picture>
-          <h2>Madera Drive-In Theater</h2>
-          <p>
-            Originally opened in 1948, the Madera Drive-In is a two screen drive-in
-            theater.
-          </p>
-        </article>
-        <article class="placeholderBox fossil">
-          <picture>
-            <img
-              class="cardImg"
-              src="images/placeholder.png"
-              data-src="images/fossil.jpg"
-              alt="Picture of fossil at Fossil Discovery Center"
-            />
-          </picture>
-          <h2>Fossil Discovery Center</h2>
-          <p>
-            This project is located at the Fairmead landfill in Madera County, the site of
-            one of the largest middle-Pleistocene fossil excavations in North America.
-          </p>
-        </article>
-        <article class="placeholderBox park">
-          <picture>
-            <img
-              class="cardImg"
-              src="images/placeholder.png"
-              data-src="images/park.jpg"
-              alt="Lion Town and Country Park"
-            />
-          </picture>
-          <h2>Lions Town & Country Park</h2>
-          <p>
-            Get some Fresh Air! This park features a variety of facilities, including an
-            amphitheatre, a walking track, sporting flields, and picnic areas.
-          </p>
-        </article>
-        <article class="placeholderBox speedway">
-          <picture>
-            <img
-              class="cardImg"
-              src="images/placeholder.png"
-              data-src="images/speedway.jpg"
-              alt="Madera Speedway"
-            />
-          </picture>
-          <h2>Madera Speedway</h2>
-          <p>
-            Fun for the whole family! Madera Speedway celebrates nearly 50 years of racing
-            at the speedway.
-          </p>
-        </article>
       </div>
     </main>
     <footer>
@@ -333,15 +254,7 @@
           >
         </div>
       </div>
-      <p>
-        Weather information provided by
-        <a
-          class="weather-link"
-          href="https://openweathermap.org/city/5369568"
-          target="_blank"
-          >OpenWeatherMap.org</a
-        >
-      </p>
+
       <div class="assignmentFooter"></div>
 
       ©️ <span id="currentYear"></span> Madera Chamber of Commerce |
@@ -351,7 +264,6 @@
     <script src="js/date.js"></script>
     <script src="js/currentdate.js"></script>
     <script src="js/hamburgerButton.js"></script>
-    <script src="js/timebetween.js"></script>
-    <script src="js/lazyload.js"></script>
+    <script src="js/banner.js"></script>
   </body>
 </html>
