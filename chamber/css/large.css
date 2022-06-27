@@ -42,7 +42,10 @@
   }
  
   .logoBox h1 {
-    font-size: 1.2em;
+    font-size: 2.5em;
+  }
+  .smallH1{
+    font-size: 1.5rem;
   }
   .heading {
     grid-template-columns: 1fr 3fr 1fr;

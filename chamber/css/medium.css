@@ -6,6 +6,20 @@
     grid-column: 3/4;
     grid-row: 1;
   }
+
+  .heading{
+    grid-template-columns: 90px auto;
+  }
+  .logoBox {
+    justify-content: space-around;
+  }
+  .logoBox h1 {
+    font-size: 3rem;
+  }
+  .smallH1 {
+    font-size: 2rem;
+  }
+
   .park img,.speedway img,.museum img,.fossil img,.barn img,.drive-in img,.tower img, .welcome img,.farm img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -72,6 +86,7 @@
   }
 
   .event {
+    display: flex;
     grid-row: 5;
     grid-column: 1/3;
   }
