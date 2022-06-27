@@ -55,6 +55,11 @@
     grid-column: 1/4;
   }
 
+  .spotlightBoxMain{
+    display: flex;
+    grid-column: 1/4;
+  }
+
   .spotlight {
     grid-row: 3;
     grid-column: 1/4;

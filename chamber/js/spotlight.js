@@ -45,8 +45,8 @@ fetch(resquestURL)
     info.appendChild(email);
     info.appendChild(phone);
 
-    console.log(spotlightSection)
-    console.log(info)
+    // console.log(spotlightSection)
+    // console.log(info)
 
     // Add the two sections to the spotlightBoxMain div    
     spotlightBox.appendChild(spotlightSection);
@@ -54,6 +54,6 @@ fetch(resquestURL)
 
     spotlightBoxMain.appendChild(spotlightBox)
 
-    console.log(spotlightBoxMain)
+    // console.log(spotlightBoxMain)
 
   }

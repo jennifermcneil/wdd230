@@ -232,7 +232,6 @@ input[type="radio"] {
   padding: .5rem;
 }
 .dir-list>.directoryBox {
- 
   text-align: left;
   padding: .5rem;
   margin-bottom: 1rem;
@@ -442,7 +441,6 @@ nav {
 }
 .hero img {
   width: auto;
-  /* height: auto; */
 }
 
 .hero h3 {
@@ -493,6 +491,9 @@ nav {
   text-decoration: none;
   color: #05445E;
 }
+.weathericon {
+  width: 50%;
+}
 
 .join h2 {
   background-color: #05445E;
@@ -518,7 +519,7 @@ nav {
 
 .spotlight {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: auto;
 }
 
@@ -617,27 +618,27 @@ hr{
 }
 
 .spot-img {
-  width: 85%;
   border: 2px solid #05445E;
 }
 
-.spot1, .spot2 , .spot3, .park, .museum, .speedway, .fossil, .barn, .drive-in {
+.park, .museum, .speedway, .fossil, .barn, .drive-in {
   border: 2px solid #189AB4;
   flex: 1 1 auto;
   padding: 0.75rem;
   box-shadow: 0 0 10px #189AB4;
 }
 
+.spot1, .spot2 , .spot3 {
+    border: 2px solid #189AB4;
+    flex: 1 1;
+    padding: 0.75rem;
+    box-shadow: 0 0 10px #189AB4;
+  } 
+
 .spotlightBox img {
   width: 100%;
   padding: 0.5rem;
-}
-
-.spotlightBoxMain {
-  display: flex;
-  flex-direction: column;
-  height: auto;
-}
+} */
 
 .logoBox h1 {
   font-size: 1em;
