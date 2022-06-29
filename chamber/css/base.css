@@ -75,6 +75,9 @@ form{
   background-color: #05445E;
 }
 
+.map p {
+  padding: 0.5em 0;
+}
 .chamber-map {
   margin: 5px auto;
   padding: 5px;
@@ -489,9 +492,9 @@ nav {
   text-decoration: none;
   color: #05445E;
 }
-.weathericon {
+/* .weathericon {
   width: 50%;
-}
+} */
 
 .join h2 {
   background-color: #05445E;
@@ -593,6 +596,7 @@ hr{
 
 .icon {
   display: inline;
+  width: 50px;
 }
 
 .temperature {
@@ -676,10 +680,7 @@ hr{
 
 /* --- End thank you page --- */
 
-.map,
-.address {
-  padding: 0 0.5rem;
-}
+
 
 .map a {
   text-decoration: none;
@@ -702,8 +703,11 @@ hr{
   font-style: normal;
   font-size: large;
 } 
+.addressBox p {
+  padding: 0;
+}
 
-footer {
+footer { 
   text-align: center;
 }
 
