@@ -305,7 +305,9 @@ input[type="radio"] {
   justify-items: center;
   gap: 1em;
 }
-
+.smallH1{
+  display: block;
+}
 .small {
   display: none;
 }
