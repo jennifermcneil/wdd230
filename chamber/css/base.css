@@ -486,9 +486,6 @@ nav {
   text-decoration: none;
   color: #05445E;
 }
-/* .weathericon {
-  width: 50%;
-} */
 
 .join h2 {
   background-color: #05445E;
@@ -525,7 +522,6 @@ nav {
   text-align: center;
 }
 
-
 .non,.bronze,.silver,.gold,.chamber-address, .chamber-staff{
   margin: 10px;
   border: 2px solid #189AB4;
@@ -542,7 +538,6 @@ nav {
   font-size: 0.8em;
   border-top: 1px solid #05445E;
 }
-
 
 .info p {
   padding: 0;

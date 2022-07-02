@@ -29,7 +29,6 @@
     -webkit-filter: grayscale(100%);
     transition: all 1s ease;
     width: 100%;
-  
   }
   
   .park img:hover,.speedway img:hover,.museum img:hover,.fossil img:hover,.barn img:hover,.drive-in img:hover:hover,.welcome img:hover,.farm img:hover,.tower img:hover{
