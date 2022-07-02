@@ -67,6 +67,7 @@ form{
   width: 100%;
 }
 .join-header,
+#lastVisit,.directory-header,
 .contact-header {
   max-width: 70em;
   margin: 0 auto;
@@ -201,11 +202,7 @@ input[type="radio"] {
 
 /*  --- End Form styling --- */
 /* --- directory buttons --- */
-#main-content h1 {
-  text-align: center;
-  font-size: 2.5em;
- 
-}
+
 .view-buttons {
   display: block;
   text-align: center;
@@ -399,7 +396,7 @@ nav {
   }
 
 .social {
-  width: 75%;
+  width: 60%;
   text-align: center;
   justify-content: right;
 }
@@ -425,12 +422,6 @@ nav {
   background-color: white;
   color: #05445E;
   border: 1px solid #05445E;
-}
-
-#lastVisit {
-  text-align: center;
-  font-weight: bold;
-  font-size: large;
 }
 
 .home, .statisticsMadera {
@@ -664,7 +655,7 @@ hr{
 }
 
 .big {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   padding: 0.5rem;
   margin: 10px;
