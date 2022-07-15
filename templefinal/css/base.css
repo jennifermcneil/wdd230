@@ -23,6 +23,9 @@ body {
     font-weight: bold;
     color: #206600;
   }
+  h3 {
+    text-align: center;
+  }
   
   header, footer {
     background-color: #f1f1f1;
@@ -30,14 +33,14 @@ body {
   }
   
   .spot {
-    margin-top: .8rem;
+    margin-top: 1.5rem;
     background-color: #f1f1f1;
     border: 1px solid #353238;
     box-shadow: 5px 5px 5px 2px #353238;
   }
   
   .pad {
-    padding: 0 .8rem;
+    padding: 1rem;
   }
   
   .header {
@@ -65,6 +68,11 @@ body {
     background-color: #70E000;
     border: #70E000;
     box-shadow: 2px 8px 16px #2c2626;
+  }
+  .about-temple p {
+    padding: 5px;
+    text-align: center;
+
   }
   
   /* Hamburger Menu */
@@ -174,12 +182,15 @@ body {
   /* temple section */
   
   .temple img{
+    display:flex;
     width: 100%;
-    max-width: 300px;
     height: auto;
     box-shadow: 5px 5px 5px 2px #353238;
   }
-  
+
+  .temples h2 {
+    color: #70E000;
+  }  
   .temple p {
     padding: .8rem;
     margin: 0;
@@ -234,7 +245,7 @@ body {
     font-size: 12px;
   }
   
-  .forcast {
+  .forecast {
     display: flex;
     justify-content: center;
 
@@ -278,10 +289,10 @@ body {
   }
   
   .contact-btn a {
-    border: 3px solid #70E000;
+    border: 3px solid #2c2626;
     padding: .8rem;
-    background-color: #f1f1f1;
-    color: black;
+    background-color: #353238;
+    color: #f1f1f1;
     text-decoration: none;
     border-radius: 10px;
     display: block;
@@ -345,25 +356,33 @@ body {
   
   .temple-cards img {
     width: 100%;
+    box-shadow: 5px 5px 5px 2px #353238;
     height: auto;
     border-radius: 5px;
   }
   
   /* like button */
   .like {
-    background-color: #70E000;
+    background-color: #2c2626;
+    color: #f1f1f1;
+    border: 1px solid #2c2626;
     padding: 0.5rem;
-    font-size: 1.1rem
+    font-size: 1.1rem;
+    box-shadow: 5px 5px 5px 2px #353238;    
   }
   
   .like:hover {
-    background-color: #0000ff;
-    color: #ffffff;
+    background-color:#f1f1f1;
+    color: #2c2626;
+   
   }
   
   .liked {
-    background-color: #0000ff;
-    color: #ffffff;
+    background-color: #70E000;
+    border: #353238;
+    color: #f1f1f1;
+    box-shadow: 5px 5px 5px 2px #353238; 
+    
   }
   
   /* reservation page */
