@@ -175,6 +175,7 @@ body {
   
   .temple img{
     width: 100%;
+    max-width: 300px;
     height: auto;
     box-shadow: 5px 5px 5px 2px #353238;
   }
