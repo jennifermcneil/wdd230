@@ -63,6 +63,8 @@ body {
   
   .btn:hover {
     background-color: #70E000;
+    border: #70E000;
+    box-shadow: 2px 8px 16px #2c2626;
   }
   
   /* Hamburger Menu */
@@ -81,7 +83,7 @@ body {
     color: black;
     display: block;
     padding: 0.8rem;
-    border-bottom: 3px solid #353238; 
+    /* border-bottom: 3px solid #353238;  */
   }
  
   .navigation a:hover {
