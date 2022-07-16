@@ -55,6 +55,7 @@ body {
     background-color: #353238;
     border-radius: 10px;
     border: 2px solid #206600;
+    color: #f1f1f1;
   }
   
   .btn a {
@@ -222,7 +223,7 @@ body {
   .current-weather {
     text-align: center;
     background-color: #f1f1f1;
-    color: #206600;
+    color: #2c2626;
     width: 100%;
   }
   .current-weather h3 {
@@ -233,7 +234,6 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    
   }
   
   .day {
@@ -359,8 +359,22 @@ body {
     box-shadow: 5px 5px 5px 2px #353238;
     height: auto;
     border-radius: 5px;
+    grid-row: 2;
+  }
+  .temple-cards h3{
+    grid-row: 1;
+    padding: 1rem;
+  }
+
+  .temple-cards p ul {
+    grid-row: 3;
+    padding: 1rem;
   }
   
+  .temple-cards button {
+    grid-row: 4;
+
+  }
   /* like button */
   .like {
     background-color: #2c2626;
