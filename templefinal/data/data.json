@@ -13,7 +13,7 @@
         "announced":"8 January 1999",
         "groundbreaking":"20 March 1999",
         "dedicated":"9 April 2000",
-        "imageurl":"images/fresno_temple_lds.webp"
+        "imageurl":"images/fresno.webp"
       },
       {
         "name":"Palmyra New York Temple",
@@ -28,22 +28,22 @@
         "announced":"21 February 1999",
         "groundbreaking":"25 May 1999",
         "dedicated":"6 April 2000",
-        "imageurl":"images/palmyra_temple_lds.webp"
+        "imageurl":"images/palmyra.webp"
       },
       {
-        "name":"Provo Utah Temple",
-        "address":"2200 Temple Hill Dr",
+        "name":"Provo City Center Utah Temple",
+        "address":"50 University Ave",
         "city":"Provo",
         "state":"UT",
         "country":"USA",
-        "phone":"801-375-5775",
+        "phone":"801-343-2700",
         "clothing":"Clothing rental available",
         "housing":"No patron housing available",
         "distribution":"Distribution center nearby",
-        "announced":"14 August 1967",
-        "groundbreaking":"15 June 1969",
-        "dedicated":"9 February 1972",
-        "imageurl":"images/provo_temple_lds.webp"
+        "announced":"1 October 2011",
+        "groundbreaking":"12 May 2012",
+        "dedicated":"20 March 2016",
+        "imageurl":"images/provo-city-center.webp"
       },
       {
         "name":"Cedar City Utah Temple",
@@ -58,7 +58,7 @@
         "announced":"6 April 2013",
         "groundbreaking":"8 August 2015",
         "dedicated":"10 December 2017",
-        "imageurl":"images/cedar_city_temple.webp"
+        "imageurl":"images/cedar-city.webp"
       },
       {
         "name":"Los Angeles California Temple",
@@ -76,19 +76,19 @@
         "imageurl":"images/los-angeles.webp"
       },
       {
-        "name":"Salt Lake City Temple",
-        "address":"50 W North Temple St",
-        "city":"Salt Lake City",
-        "state":"UT",
+        "name":"Nauvoo Illinois Temple",
+        "address":"50 N Wells St",
+        "city":"Nauvoo",
+        "state":"IL",
         "country":"USA",
-        "phone":"(801)240-2640",
+        "phone":"(217)453-6252",
         "clothing":"Clothing rental available",
-        "housing":"No patron housing available",
-        "distribution":"Distribution center nearby",
-        "announced":"28 July 1947",
-        "groundbreaking":"14 February 1853",
-        "dedicated":"6 April 1893",
-        "imageurl":"images/salt_lake_temple_lds.webp"
+        "housing":"Patron housing available",
+        "distribution":"No distribution center nearby",
+        "announced":"4 April 1999",
+        "groundbreaking":"24 October 1999",
+        "dedicated":"27 June 2002",
+        "imageurl":"images/nauvoo_temple.webp"
       }
     ]
   }
