@@ -8,7 +8,7 @@ const threeDay = document.querySelector('.three-day');
 const dayOne = document.querySelector('.day-one')
 const dayTwo= document.querySelector('.day-two')
 const dayThree = document.querySelector('.day-three')
-const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=37.08&lon=-88.60&units=imperial&APPID=${info}`
+const apiURL = `https://api.openweathermap.org/data/2.5/onecall?lat=36.6666&lon=-119.9343&units=imperial&APPID=${info}`
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -149,4 +149,5 @@ fetch(apiURL)
     let alert = alerts.event;
     event.innerText = alert
     weatherAlert.appendChild(event)
+    console.log(alerts)
   }
