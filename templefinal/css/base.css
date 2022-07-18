@@ -31,6 +31,10 @@ body {
     background-color: #f1f1f1;
     box-shadow: 5px 5px 5px 5px #353238;
   }
+
+  a:visited, a:active, a:required, a:hover {
+    color: #2c2626;
+  }
   
   .spot {
     margin-top: 1.5rem;
@@ -350,7 +354,6 @@ body {
     margin: 10px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-template-rows: repeat(8,fr);
     justify-items: center;
     gap: 1em;
   }
@@ -387,7 +390,7 @@ body {
   .liked {
     background-color: #70E000;
     border: #353238;
-    color: #f1f1f1;
+    color: #2c2626;
     box-shadow: 5px 5px 5px 2px #353238; 
     
   }
