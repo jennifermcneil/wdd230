@@ -29,4 +29,8 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
     }
+    .offerings img {
+      width: 100%;
+      border-radius: 5px;
+    }
   }
