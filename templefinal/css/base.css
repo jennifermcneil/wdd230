@@ -96,7 +96,6 @@ body {
     color: black;
     display: block;
     padding: 0.8rem;
-    /* border-bottom: 3px solid #353238;  */
   }
  
   .navigation a:hover {
@@ -119,7 +118,6 @@ body {
     display: block;
   }
 
-  
   /* Menu */
   .menu a {
     text-decoration: none;
@@ -128,10 +126,7 @@ body {
   .active {
     font-size: 150%;
     text-decoration: underline;
-    display: block;
-    /* background: rgb(56,176,0,.7);
-     */
-    
+    display: block;    
   }
   
   /* Weather alert banner */
