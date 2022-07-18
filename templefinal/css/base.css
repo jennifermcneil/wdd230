@@ -343,6 +343,18 @@ body {
     text-align: center;
   }
   
+  .thanks h1 {
+    font-family: "Alex Brush", sans-serif;
+    font-size: 50px;
+    color: #2c2626;
+  }
+  .thanks img{
+    display:flex;
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 5px 2px #353238;
+  }
+  
   /* temple page */
   
   
