@@ -31,7 +31,7 @@ body {
     background-color: #f1f1f1;
     box-shadow: 5px 5px 5px 5px #353238;
   }
-  
+
   a:visited, a:active, a:required, a:hover {
     color: #2c2626;
   }
@@ -259,7 +259,7 @@ body {
   }
   
   .social img {
-    padding-right: 0.5rem;
+    padding: 1rem;
   }
   
   .social a {
@@ -300,6 +300,7 @@ body {
   
   .source {
     margin: 0;
+    padding: 1rem;
   }
   
   /* forms */
