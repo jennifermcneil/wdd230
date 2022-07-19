@@ -49,17 +49,12 @@
       display: grid;
       grid-template-columns: auto;
       align-items: center;
-      /* justify-content: space-around; */
+      
     }
   
-    .contact {
+    .contact, .map {
       grid-column: 1;
-      /* grid-row: 1/3; */
-    }
-  
-    .map {
-      grid-column: 1;
-      /* grid-row: 1/3; */
+      
     }
   
     .contact-button {
@@ -79,6 +74,4 @@
     .small {
       display: contents;
     }
-  
-    
   }
