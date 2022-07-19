@@ -31,10 +31,6 @@ body {
     background-color: #f1f1f1;
     box-shadow: 5px 5px 5px 5px #353238;
   }
-
-  a:visited, a:active, a:required, a:hover {
-    color: #2c2626;
-  }
   
   .spot {
     margin-top: 1.5rem;
@@ -415,5 +411,9 @@ body {
     width: 100%;
     height: auto;
     box-shadow: 5px 5px 5px 2px #353238;
+  }
+
+  a:visited, a:active, a:required, a:hover {
+    color: #2c2626;
   }
   
