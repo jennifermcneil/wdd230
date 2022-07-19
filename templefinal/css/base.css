@@ -32,6 +32,10 @@ body {
     box-shadow: 5px 5px 5px 5px #353238;
   }
   
+  a:visited, a:active, a:required, a:hover {
+    color: #2c2626;
+  }
+
   .spot {
     margin-top: 1.5rem;
     background-color: #f1f1f1;
@@ -245,9 +249,7 @@ body {
     justify-content: center;
 
   }
-  a:visited, a:active, a:required, a:hover {
-    color: #2c2626;
-  }
+  
     
   /* footer */
   footer {
