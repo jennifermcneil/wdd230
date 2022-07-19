@@ -149,5 +149,5 @@ fetch(apiURL)
     let alert = alerts.event;
     event.innerText = alert
     weatherAlert.appendChild(event)
-    console.log(alerts)
   }
+
