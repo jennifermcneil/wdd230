@@ -301,8 +301,6 @@ body {
   .source {
     margin: 0;
     padding: 1rem;
-  }
-  .source a:visited, .source a:active, .source a:required, .source a:hover {
     color: #2c2626;
   }
   
