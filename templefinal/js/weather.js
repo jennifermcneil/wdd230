@@ -70,7 +70,7 @@ fetch(apiURL)
     const secondDayTemp = jsObject.daily[1].temp.max;
     const secondDayIcon = `https://openweathermap.org/img/w/${jsObject.daily[1].weather[0].icon}.png`;
     const secondDayDescript = jsObject.daily[1].weather[0].description;
-    // Thord Day
+    // Third Day
     const thirdDayTemp = jsObject.daily[2].temp.max;
     const thirdDayIcon = `https://openweathermap.org/img/w/${jsObject.daily[2].weather[0].icon}.png`;
     const thirdDayDescript = jsObject.daily[2].weather[0].description;
@@ -143,12 +143,11 @@ fetch(apiURL)
 
 
   function displayAlerts(alerts) {
-    // A function to display weather alrets and warnings. 
+    // A function to display weather alerts and warnings. 
     //Create a p element for each alert and append it to the weatherAlert div
     let event = document.createElement('p');
     let alert = alerts.event;
     event.innerText = alert
     weatherAlert.appendChild(event)
-    console.log(info)
   }
 
