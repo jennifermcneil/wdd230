@@ -143,11 +143,12 @@ fetch(apiURL)
 
 
   function displayAlerts(alerts) {
-    // A function to dsiplay weather alrets and warnings. 
-    //Ccreate a p element for each alert and append it to the weatherAlert div
+    // A function to display weather alrets and warnings. 
+    //Create a p element for each alert and append it to the weatherAlert div
     let event = document.createElement('p');
     let alert = alerts.event;
     event.innerText = alert
     weatherAlert.appendChild(event)
+    console.log(info)
   }
 
