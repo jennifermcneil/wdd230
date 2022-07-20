@@ -132,7 +132,7 @@ body {
   /* Weather alert banner */
   #weather-alert {
     background-color: #206600;
-    color: rgb(255, 255, 255);
+    color: #f1f1f1;
     text-align: center;
   }
   
